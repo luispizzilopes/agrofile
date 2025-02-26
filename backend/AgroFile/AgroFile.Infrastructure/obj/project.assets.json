@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC\\Desktop\\backend\\AgroFile\\AgroFile.Infrastructure\\AgroFile.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\AgroFile\\AgroFile.Infrastructure\\AgroFile.Infrastructure.csproj",
       "projectName": "AgroFile.Infrastructure",
-      "projectPath": "C:\\Users\\PC\\Desktop\\backend\\AgroFile\\AgroFile.Infrastructure\\AgroFile.Infrastructure.csproj",
+      "projectPath": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\AgroFile\\AgroFile.Infrastructure\\AgroFile.Infrastructure.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PC\\Desktop\\backend\\AgroFile\\AgroFile.Infrastructure\\obj\\",
+      "outputPath": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\AgroFile\\AgroFile.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",

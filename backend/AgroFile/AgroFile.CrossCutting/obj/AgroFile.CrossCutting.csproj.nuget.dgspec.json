@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PC\\Desktop\\backend\\AgroFile\\AgroFile.CrossCutting\\AgroFile.CrossCutting.csproj": {}
+    "C:\\Users\\PC\\Desktop\\agrofile\\backend\\AgroFile\\AgroFile.CrossCutting\\AgroFile.CrossCutting.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PC\\Desktop\\backend\\AgroFile\\AgroFile.CrossCutting\\AgroFile.CrossCutting.csproj": {
+    "C:\\Users\\PC\\Desktop\\agrofile\\backend\\AgroFile\\AgroFile.CrossCutting\\AgroFile.CrossCutting.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\Desktop\\backend\\AgroFile\\AgroFile.CrossCutting\\AgroFile.CrossCutting.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\AgroFile\\AgroFile.CrossCutting\\AgroFile.CrossCutting.csproj",
         "projectName": "AgroFile.CrossCutting",
-        "projectPath": "C:\\Users\\PC\\Desktop\\backend\\AgroFile\\AgroFile.CrossCutting\\AgroFile.CrossCutting.csproj",
+        "projectPath": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\AgroFile\\AgroFile.CrossCutting\\AgroFile.CrossCutting.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\Desktop\\backend\\AgroFile\\AgroFile.CrossCutting\\obj\\",
+        "outputPath": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\AgroFile\\AgroFile.CrossCutting\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",

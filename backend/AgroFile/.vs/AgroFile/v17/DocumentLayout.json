@@ -1,29 +1,33 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\backend\\AgroFile\\",
+  "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\AgroFile\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{A7803DF3-7FED-4A57-8839-C34678CF96AE}|AgroFile.Domain\\AgroFile.Domain.csproj|c:\\users\\pc\\desktop\\backend\\agrofile\\agrofile.domain\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A7803DF3-7FED-4A57-8839-C34678CF96AE}|AgroFile.Domain\\AgroFile.Domain.csproj|c:\\users\\pc\\desktop\\agrofile\\backend\\agrofile\\agrofile.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7803DF3-7FED-4A57-8839-C34678CF96AE}|AgroFile.Domain\\AgroFile.Domain.csproj|solutionrelative:agrofile.domain\\entities\\user.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7803DF3-7FED-4A57-8839-C34678CF96AE}|AgroFile.Domain\\AgroFile.Domain.csproj|c:\\users\\pc\\desktop\\agrofile\\backend\\agrofile\\agrofile.domain\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A7803DF3-7FED-4A57-8839-C34678CF96AE}|AgroFile.Domain\\AgroFile.Domain.csproj|solutionrelative:agrofile.domain\\entities\\employee.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7803DF3-7FED-4A57-8839-C34678CF96AE}|AgroFile.Domain\\AgroFile.Domain.csproj|c:\\users\\pc\\desktop\\backend\\agrofile\\agrofile.domain\\entities\\plot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A7803DF3-7FED-4A57-8839-C34678CF96AE}|AgroFile.Domain\\AgroFile.Domain.csproj|c:\\users\\pc\\desktop\\agrofile\\backend\\agrofile\\agrofile.domain\\entities\\plot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A7803DF3-7FED-4A57-8839-C34678CF96AE}|AgroFile.Domain\\AgroFile.Domain.csproj|solutionrelative:agrofile.domain\\entities\\plot.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7803DF3-7FED-4A57-8839-C34678CF96AE}|AgroFile.Domain\\AgroFile.Domain.csproj|c:\\users\\pc\\desktop\\backend\\agrofile\\agrofile.domain\\entities\\yearmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A7803DF3-7FED-4A57-8839-C34678CF96AE}|AgroFile.Domain\\AgroFile.Domain.csproj|c:\\users\\pc\\desktop\\agrofile\\backend\\agrofile\\agrofile.domain\\entities\\yearmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A7803DF3-7FED-4A57-8839-C34678CF96AE}|AgroFile.Domain\\AgroFile.Domain.csproj|solutionrelative:agrofile.domain\\entities\\yearmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7803DF3-7FED-4A57-8839-C34678CF96AE}|AgroFile.Domain\\AgroFile.Domain.csproj|c:\\users\\pc\\desktop\\backend\\agrofile\\agrofile.domain\\entities\\estate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A7803DF3-7FED-4A57-8839-C34678CF96AE}|AgroFile.Domain\\AgroFile.Domain.csproj|c:\\users\\pc\\desktop\\agrofile\\backend\\agrofile\\agrofile.domain\\entities\\estate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A7803DF3-7FED-4A57-8839-C34678CF96AE}|AgroFile.Domain\\AgroFile.Domain.csproj|solutionrelative:agrofile.domain\\entities\\estate.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{A7803DF3-7FED-4A57-8839-C34678CF96AE}|AgroFile.Domain\\AgroFile.Domain.csproj|c:\\users\\pc\\desktop\\backend\\agrofile\\agrofile.domain\\entities\\base\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{A7803DF3-7FED-4A57-8839-C34678CF96AE}|AgroFile.Domain\\AgroFile.Domain.csproj|c:\\users\\pc\\desktop\\agrofile\\backend\\agrofile\\agrofile.domain\\entities\\base\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A7803DF3-7FED-4A57-8839-C34678CF96AE}|AgroFile.Domain\\AgroFile.Domain.csproj|solutionrelative:agrofile.domain\\entities\\base\\baseentity.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7E54197B-39A9-4DBE-8B7A-4D2C0E330C99}|AgroFile.WebAPI\\AgroFile.WebAPI.csproj|c:\\users\\pc\\desktop\\backend\\agrofile\\agrofile.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{7E54197B-39A9-4DBE-8B7A-4D2C0E330C99}|AgroFile.WebAPI\\AgroFile.WebAPI.csproj|c:\\users\\pc\\desktop\\agrofile\\backend\\agrofile\\agrofile.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{7E54197B-39A9-4DBE-8B7A-4D2C0E330C99}|AgroFile.WebAPI\\AgroFile.WebAPI.csproj|solutionrelative:agrofile.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
@@ -34,15 +38,32 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 1,
           "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "User.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\AgroFile\\AgroFile.Domain\\Entities\\User.cs",
+              "RelativeDocumentMoniker": "AgroFile.Domain\\Entities\\User.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\AgroFile\\AgroFile.Domain\\Entities\\User.cs",
+              "RelativeToolTip": "AgroFile.Domain\\Entities\\User.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAAAoAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-26T00:08:44.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
               "Title": "Employee.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\backend\\AgroFile\\AgroFile.Domain\\Entities\\Employee.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\AgroFile\\AgroFile.Domain\\Entities\\Employee.cs",
               "RelativeDocumentMoniker": "AgroFile.Domain\\Entities\\Employee.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\backend\\AgroFile\\AgroFile.Domain\\Entities\\Employee.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\AgroFile\\AgroFile.Domain\\Entities\\Employee.cs",
               "RelativeToolTip": "AgroFile.Domain\\Entities\\Employee.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAQAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -51,63 +72,68 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "Plot.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\backend\\AgroFile\\AgroFile.Domain\\Entities\\Plot.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\AgroFile\\AgroFile.Domain\\Entities\\Plot.cs",
               "RelativeDocumentMoniker": "AgroFile.Domain\\Entities\\Plot.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\backend\\AgroFile\\AgroFile.Domain\\Entities\\Plot.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\AgroFile\\AgroFile.Domain\\Entities\\Plot.cs",
               "RelativeToolTip": "AgroFile.Domain\\Entities\\Plot.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T23:17:46.726Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "YearManagement.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\backend\\AgroFile\\AgroFile.Domain\\Entities\\YearManagement.cs",
-              "RelativeDocumentMoniker": "AgroFile.Domain\\Entities\\YearManagement.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\backend\\AgroFile\\AgroFile.Domain\\Entities\\YearManagement.cs",
-              "RelativeToolTip": "AgroFile.Domain\\Entities\\YearManagement.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAADwvwoAAAAiAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T23:11:49.416Z"
+              "WhenOpened": "2025-02-25T23:17:46.726Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 3,
-              "Title": "Estate.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\backend\\AgroFile\\AgroFile.Domain\\Entities\\Estate.cs",
-              "RelativeDocumentMoniker": "AgroFile.Domain\\Entities\\Estate.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\backend\\AgroFile\\AgroFile.Domain\\Entities\\Estate.cs",
-              "RelativeToolTip": "AgroFile.Domain\\Entities\\Estate.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAdAAAA",
+              "Title": "YearManagement.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\AgroFile\\AgroFile.Domain\\Entities\\YearManagement.cs",
+              "RelativeDocumentMoniker": "AgroFile.Domain\\Entities\\YearManagement.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\AgroFile\\AgroFile.Domain\\Entities\\YearManagement.cs",
+              "RelativeToolTip": "AgroFile.Domain\\Entities\\YearManagement.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAADwvwoAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T23:05:35.898Z"
+              "WhenOpened": "2025-02-25T23:11:49.416Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 4,
-              "Title": "BaseEntity.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\backend\\AgroFile\\AgroFile.Domain\\Entities\\Base\\BaseEntity.cs",
-              "RelativeDocumentMoniker": "AgroFile.Domain\\Entities\\Base\\BaseEntity.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\backend\\AgroFile\\AgroFile.Domain\\Entities\\Base\\BaseEntity.cs",
-              "RelativeToolTip": "AgroFile.Domain\\Entities\\Base\\BaseEntity.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAAGAAAA",
+              "Title": "Estate.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\AgroFile\\AgroFile.Domain\\Entities\\Estate.cs",
+              "RelativeDocumentMoniker": "AgroFile.Domain\\Entities\\Estate.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\AgroFile\\AgroFile.Domain\\Entities\\Estate.cs",
+              "RelativeToolTip": "AgroFile.Domain\\Entities\\Estate.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAA0AAAAdAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T23:02:03.222Z"
+              "WhenOpened": "2025-02-25T23:05:35.898Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 5,
+              "Title": "BaseEntity.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\AgroFile\\AgroFile.Domain\\Entities\\Base\\BaseEntity.cs",
+              "RelativeDocumentMoniker": "AgroFile.Domain\\Entities\\Base\\BaseEntity.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\AgroFile\\AgroFile.Domain\\Entities\\Base\\BaseEntity.cs",
+              "RelativeToolTip": "AgroFile.Domain\\Entities\\Base\\BaseEntity.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAIAAAAGAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-02-25T23:02:03.222Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\backend\\AgroFile\\AgroFile.WebAPI\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\AgroFile\\AgroFile.WebAPI\\Program.cs",
               "RelativeDocumentMoniker": "AgroFile.WebAPI\\Program.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\backend\\AgroFile\\AgroFile.WebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\AgroFile\\AgroFile.WebAPI\\Program.cs",
               "RelativeToolTip": "AgroFile.WebAPI\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-02-25T22:57:17.18Z"
+              "WhenOpened": "2025-02-25T22:57:17.18Z",
+              "EditorCaption": ""
             }
           ]
         }

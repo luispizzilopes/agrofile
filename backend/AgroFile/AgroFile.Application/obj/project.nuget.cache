@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "oGZwyLBkfl9UbwbMHvFIUfpaduQ+5uH80lhHfeHDKOE2XAIbIjcXQyGTFRQOQIBgyKZo9NjxtyJnYLQu/vREcA==",
+  "dgSpecHash": "NmNT4Z46L+TRvBb5gQrhHmR2EkqD2N4hZmmn8m9/SMBfu/XfNFQ3oslbContxYaZl0FE1ZY7gIPUxyeNOVGF5w==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PC\\Desktop\\backend\\AgroFile\\AgroFile.Application\\AgroFile.Application.csproj",
+  "projectFilePath": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\AgroFile\\AgroFile.Application\\AgroFile.Application.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
