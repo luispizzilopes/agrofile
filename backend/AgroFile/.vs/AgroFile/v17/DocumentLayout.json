@@ -1,92 +1,12 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\AgroFile\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{A7803DF3-7FED-4A57-8839-C34678CF96AE}|AgroFile.Domain\\AgroFile.Domain.csproj|c:\\users\\pc\\desktop\\agrofile\\backend\\agrofile\\agrofile.domain\\exceptions\\messages\\messagesyearmanagementagrofiledomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7803DF3-7FED-4A57-8839-C34678CF96AE}|AgroFile.Domain\\AgroFile.Domain.csproj|solutionrelative:agrofile.domain\\exceptions\\messages\\messagesyearmanagementagrofiledomain.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7803DF3-7FED-4A57-8839-C34678CF96AE}|AgroFile.Domain\\AgroFile.Domain.csproj|c:\\users\\pc\\desktop\\agrofile\\backend\\agrofile\\agrofile.domain\\entities\\yearmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7803DF3-7FED-4A57-8839-C34678CF96AE}|AgroFile.Domain\\AgroFile.Domain.csproj|solutionrelative:agrofile.domain\\entities\\yearmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7803DF3-7FED-4A57-8839-C34678CF96AE}|AgroFile.Domain\\AgroFile.Domain.csproj|c:\\users\\pc\\desktop\\agrofile\\backend\\agrofile\\agrofile.domain\\exceptions\\messages\\messagesplotagrofileexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7803DF3-7FED-4A57-8839-C34678CF96AE}|AgroFile.Domain\\AgroFile.Domain.csproj|solutionrelative:agrofile.domain\\exceptions\\messages\\messagesplotagrofileexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 1,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "MessagesYearManagementAgroFileDomain.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\AgroFile\\AgroFile.Domain\\Exceptions\\Messages\\MessagesYearManagementAgroFileDomain.cs",
-              "RelativeDocumentMoniker": "AgroFile.Domain\\Exceptions\\Messages\\MessagesYearManagementAgroFileDomain.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\AgroFile\\AgroFile.Domain\\Exceptions\\Messages\\MessagesYearManagementAgroFileDomain.cs",
-              "RelativeToolTip": "AgroFile.Domain\\Exceptions\\Messages\\MessagesYearManagementAgroFileDomain.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAACKAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T22:54:10.251Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "MessagesPlotAgroFileException.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\AgroFile\\AgroFile.Domain\\Exceptions\\Messages\\MessagesPlotAgroFileException.cs",
-              "RelativeDocumentMoniker": "AgroFile.Domain\\Exceptions\\Messages\\MessagesPlotAgroFileException.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\AgroFile\\AgroFile.Domain\\Exceptions\\Messages\\MessagesPlotAgroFileException.cs",
-              "RelativeToolTip": "AgroFile.Domain\\Exceptions\\Messages\\MessagesPlotAgroFileException.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAABHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T22:44:47.432Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "Orientation": 0,
-      "VerticalTabListWidth": 256,
-      "FloatingWindowState": {
-        "Id": "f7ed608b-4210-4070-b754-c0097c59dffd",
-        "Display": 0,
-        "X": 301,
-        "Y": 230,
-        "Width": 1259,
-        "Height": 766,
-        "WindowState": 2
-      },
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 0,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "YearManagement.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\AgroFile\\AgroFile.Domain\\Entities\\YearManagement.cs",
-              "RelativeDocumentMoniker": "AgroFile.Domain\\Entities\\YearManagement.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\AgroFile\\AgroFile.Domain\\Entities\\YearManagement.cs",
-              "RelativeToolTip": "AgroFile.Domain\\Entities\\YearManagement.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAACcAAABJAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-10T22:50:47.992Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
