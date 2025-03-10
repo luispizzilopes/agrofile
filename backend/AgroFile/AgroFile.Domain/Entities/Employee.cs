@@ -1,4 +1,6 @@
-﻿using AgroFile.Domain.Entities.Base;
+﻿using AgroFile.Domain.Common;
+using AgroFile.Domain.Exceptions;
+using AgroFile.Domain.Exceptions.Messages;
 
 namespace AgroFile.Domain.Entities;
 
@@ -21,4 +23,81 @@ public class Employee : BaseEntity
     public Department? Department { get; set; }
     public Guid? ManagerId { get; set; }
     public Employee? Manager { get; set; }
+
+    public Employee() { }
+
+    public Employee(
+        string firstName, 
+        string? middleName, 
+        string lastName, 
+        DateTimeOffset? birthdayDate, 
+        string individualRegistration, 
+        decimal? wage, 
+        string email, 
+        string phoneNumber, 
+        string address, 
+        string jobTitle, 
+        DateTimeOffset? hireDate, 
+        DateTimeOffset? terminationDate, 
+        bool? isActive, 
+        Guid? departmentId, 
+        Guid? managerId)
+    {
+        if (string.IsNullOrEmpty(firstName))
+            throw new AgroFileDomainException(MessagesEmployeeAgroFileDomain.FirstNameIsRequired); 
+
+        if(string.IsNullOrEmpty(lastName))
+            throw new AgroFileDomainException(MessagesEmployeeAgroFileDomain.LastNameIsRequired);
+
+        if (string.IsNullOrEmpty(individualRegistration))
+            throw new AgroFileDomainException(MessagesEmployeeAgroFileDomain.IndividualRegistrationIsRequired);
+
+        if (wage == null)
+            throw new AgroFileDomainException(MessagesEmployeeAgroFileDomain.WageIsRequired);
+
+        if (hireDate == null)
+            throw new AgroFileDomainException(MessagesEmployeeAgroFileDomain.HireDateIsRequired);
+
+        if (isActive == null)
+            throw new AgroFileDomainException(MessagesEmployeeAgroFileDomain.ActiveIsRequired);
+
+        if (departmentId == null)
+            throw new AgroFileDomainException(MessagesEmployeeAgroFileDomain.DepartmentIdIsRequired);
+
+        FirstName = firstName;
+        MiddleName = middleName;
+        LastName = lastName;
+        BirthdayDate = birthdayDate;
+        IndividualRegistration = individualRegistration;
+        Wage = (decimal)wage;
+        Email = email;
+        PhoneNumber = phoneNumber;
+        Address = address;
+        JobTitle = jobTitle;
+        HireDate = (DateTimeOffset)hireDate;
+        TerminationDate = terminationDate;
+        IsActive = (bool)isActive;
+        DepartmentId = (Guid)departmentId;
+        ManagerId = managerId;
+    }
+
+    public static Employee Create(
+        string firstName,
+        string? middleName,
+        string lastName,
+        DateTimeOffset? birthdayDate,
+        string individualRegistration,
+        decimal? wage,
+        string email,
+        string phoneNumber,
+        string address,
+        string jobTitle,
+        DateTimeOffset? hireDate,
+        DateTimeOffset? terminationDate,
+        bool? isActive,
+        Guid? departmentId,
+        Guid? managerId)
+    {
+        return new Employee(firstName, middleName, lastName, birthdayDate, individualRegistration, wage, email, phoneNumber, address, jobTitle, hireDate, terminationDate, isActive, departmentId, managerId);
+    }
 }

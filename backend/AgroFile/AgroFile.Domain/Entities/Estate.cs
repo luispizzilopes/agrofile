@@ -1,6 +1,8 @@
-﻿using AgroFile.Domain.Entities.Base;
+﻿using AgroFile.Domain.Common;
+using AgroFile.Domain.Exceptions;
+using AgroFile.Domain.Exceptions.Messages;
 
-namespace AgroFile.Domain.Entities; 
+namespace AgroFile.Domain.Entities;
 
 public class Estate : BaseEntity
 {
@@ -12,4 +14,27 @@ public class Estate : BaseEntity
     public string? Coutry { get; set; } 
 
     public IEnumerable<Plot>? Plots { get; set; }
+
+    public Estate() { }
+
+    public Estate(string name, string description, string? address, string? city, string? state, string? coutry)
+    {
+        if (string.IsNullOrEmpty(name))
+            throw new AgroFileDomainException(MessagesEstateAgroFileDomainException.NameIsRequired);
+
+        if (string.IsNullOrEmpty(name))
+            throw new AgroFileDomainException(MessagesEstateAgroFileDomainException.DescriptionIsRequired); 
+
+        Name = name;
+        Description = description;
+        Address = address;
+        City = city;
+        State = state;
+        Coutry = coutry;
+    }
+
+    public static Estate Create(string name, string description, string? address, string? city, string? state, string? coutry)
+    {
+        return new Estate(name, description, address, city, state, coutry); 
+    }
 }

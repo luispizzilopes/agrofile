@@ -1,9 +1,12 @@
+using AgroFile.CrossCutting.IoC;
+
 var builder = WebApplication.CreateBuilder(args);
 
-// Add services to the container.
 builder.Services.AddControllers();
 builder.Services.AddEndpointsApiExplorer();
 builder.Services.AddSwaggerGen();
+
+builder.Services.AddDependecyInjection(builder.Configuration); 
 
 var app = builder.Build();
 
