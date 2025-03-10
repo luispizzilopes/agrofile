@@ -893,6 +893,7 @@
         "type": "project",
         "framework": ".NETCoreApp,Version=v8.0",
         "dependencies": {
+          "AgroFile.Domain": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.13",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.11"
         },
@@ -2060,11 +2061,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\AgroFile\\AgroFile.CrossCutting\\AgroFile.CrossCutting.csproj",
+      "projectUniqueName": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.CrossCutting\\AgroFile.CrossCutting.csproj",
       "projectName": "AgroFile.CrossCutting",
-      "projectPath": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\AgroFile\\AgroFile.CrossCutting\\AgroFile.CrossCutting.csproj",
+      "projectPath": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.CrossCutting\\AgroFile.CrossCutting.csproj",
       "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\AgroFile\\AgroFile.CrossCutting\\obj\\",
+      "outputPath": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.CrossCutting\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -2081,14 +2082,14 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\PC\\Desktop\\agrofile\\backend\\AgroFile\\AgroFile.Application\\AgroFile.Application.csproj": {
-              "projectPath": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\AgroFile\\AgroFile.Application\\AgroFile.Application.csproj"
+            "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.Application\\AgroFile.Application.csproj": {
+              "projectPath": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.Application\\AgroFile.Application.csproj"
             },
-            "C:\\Users\\PC\\Desktop\\agrofile\\backend\\AgroFile\\AgroFile.Domain\\AgroFile.Domain.csproj": {
-              "projectPath": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\AgroFile\\AgroFile.Domain\\AgroFile.Domain.csproj"
+            "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.Domain\\AgroFile.Domain.csproj": {
+              "projectPath": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.Domain\\AgroFile.Domain.csproj"
             },
-            "C:\\Users\\PC\\Desktop\\agrofile\\backend\\AgroFile\\AgroFile.Infrastructure\\AgroFile.Infrastructure.csproj": {
-              "projectPath": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\AgroFile\\AgroFile.Infrastructure\\AgroFile.Infrastructure.csproj"
+            "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.Infrastructure\\AgroFile.Infrastructure.csproj": {
+              "projectPath": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.Infrastructure\\AgroFile.Infrastructure.csproj"
             }
           }
         }

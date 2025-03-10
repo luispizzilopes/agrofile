@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "qnXCxbo4RSxUjBVCsMoWACaMyQxbvEDh+t8d8OYE3VUNyyVdRomCpEyDUyCj7nkIX+v4VUHldgL705aj9F7Chw==",
+  "dgSpecHash": "RCQK2o9mEpUrdx3us8et6Ces4Ne8ux0L0d82dRLWx0zwT0Uyp5w0Pvh/sIdTiyRTzHktlCtjjclf5WLCBxaOAw==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\AgroFile\\AgroFile.CrossCutting\\AgroFile.CrossCutting.csproj",
+  "projectFilePath": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.CrossCutting\\AgroFile.CrossCutting.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.3.0\\microsoft.aspnetcore.authentication.2.3.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.3.0\\microsoft.aspnetcore.authentication.abstractions.2.3.0.nupkg.sha512",

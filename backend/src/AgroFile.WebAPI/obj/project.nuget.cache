@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "3+HTxh+CpRwp3TzM1adCKO484LTLM45RKDFVtMET2oyCUMfEIZzxxNgz6jZyeTg/5W9coKnPbjuyIOjx9ag2HQ==",
+  "dgSpecHash": "j9R90E5/tUtIO2+hQqKRNtN0EEM0C4cKUbiOsy73CS/QTSiitgaQplx17vRZ681k4S0RLGw7/rNLE2pRyS0UmQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\AgroFile\\AgroFile.WebAPI\\AgroFile.WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.WebAPI\\AgroFile.WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.authentication\\2.3.0\\microsoft.aspnetcore.authentication.2.3.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.aspnetcore.authentication.abstractions\\2.3.0\\microsoft.aspnetcore.authentication.abstractions.2.3.0.nupkg.sha512",

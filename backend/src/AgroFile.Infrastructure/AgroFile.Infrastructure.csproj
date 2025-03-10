@@ -7,7 +7,6 @@
   </PropertyGroup>
 
   <ItemGroup>
-    <Folder Include="EntitiesConfiguration\" />
     <Folder Include="Extensions\" />
     <Folder Include="Repositories\" />
   </ItemGroup>
@@ -15,6 +14,10 @@
   <ItemGroup>
     <PackageReference Include="Microsoft.AspNetCore.Identity.EntityFrameworkCore" Version="8.0.13" />
     <PackageReference Include="Npgsql.EntityFrameworkCore.PostgreSQL" Version="8.0.11" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\AgroFile.Domain\AgroFile.Domain.csproj" />
   </ItemGroup>
 
 </Project>

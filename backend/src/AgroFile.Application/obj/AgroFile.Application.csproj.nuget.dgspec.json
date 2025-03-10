@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\PC\\Desktop\\agrofile\\backend\\AgroFile\\AgroFile.Application\\AgroFile.Application.csproj": {}
+    "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.Application\\AgroFile.Application.csproj": {}
   },
   "projects": {
-    "C:\\Users\\PC\\Desktop\\agrofile\\backend\\AgroFile\\AgroFile.Application\\AgroFile.Application.csproj": {
+    "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.Application\\AgroFile.Application.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\AgroFile\\AgroFile.Application\\AgroFile.Application.csproj",
+        "projectUniqueName": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.Application\\AgroFile.Application.csproj",
         "projectName": "AgroFile.Application",
-        "projectPath": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\AgroFile\\AgroFile.Application\\AgroFile.Application.csproj",
+        "projectPath": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.Application\\AgroFile.Application.csproj",
         "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\AgroFile\\AgroFile.Application\\obj\\",
+        "outputPath": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.Application\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
