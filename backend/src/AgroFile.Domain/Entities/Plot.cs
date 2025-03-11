@@ -11,6 +11,7 @@ public class Plot : BaseEntity
     public decimal Area { get; set; }
     public int SoilType { get; set; }
     public Guid EstateId { get; set; }
+    public Estate? Estate { get; set; }
 
     public Plot() { }
 

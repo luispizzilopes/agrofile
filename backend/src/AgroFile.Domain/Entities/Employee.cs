@@ -52,6 +52,18 @@ public class Employee : BaseEntity
         if (string.IsNullOrEmpty(individualRegistration))
             throw new AgroFileDomainException(MessagesEmployeeAgroFileDomain.IndividualRegistrationIsRequired);
 
+        if (string.IsNullOrEmpty(email))
+            throw new AgroFileDomainException(MessagesEmployeeAgroFileDomain.EmailIsRequired);
+
+        if (string.IsNullOrEmpty(phoneNumber))
+            throw new AgroFileDomainException(MessagesEmployeeAgroFileDomain.PhoneNumberIsRequired);
+
+        if (string.IsNullOrEmpty(address))
+            throw new AgroFileDomainException(MessagesEmployeeAgroFileDomain.AddressNumberIsRequired);
+
+        if (string.IsNullOrEmpty(jobTitle))
+            throw new AgroFileDomainException(MessagesEmployeeAgroFileDomain.JobTitleNumberIsRequired);
+
         if (wage == null)
             throw new AgroFileDomainException(MessagesEmployeeAgroFileDomain.WageIsRequired);
 
