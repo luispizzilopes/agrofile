@@ -3,6 +3,30 @@
   "WorkspaceRootPath": "C:\\Users\\pizzi\\Desktop\\GIT\\agrofile\\backend\\src\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{A7803DF3-7FED-4A57-8839-C34678CF96AE}|AgroFile.Domain\\AgroFile.Domain.csproj|c:\\users\\pizzi\\desktop\\git\\agrofile\\backend\\src\\agrofile.domain\\entities\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7803DF3-7FED-4A57-8839-C34678CF96AE}|AgroFile.Domain\\AgroFile.Domain.csproj|solutionrelative:agrofile.domain\\entities\\account.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7803DF3-7FED-4A57-8839-C34678CF96AE}|AgroFile.Domain\\AgroFile.Domain.csproj|c:\\users\\pizzi\\desktop\\git\\agrofile\\backend\\src\\agrofile.domain\\entities\\paymentmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7803DF3-7FED-4A57-8839-C34678CF96AE}|AgroFile.Domain\\AgroFile.Domain.csproj|solutionrelative:agrofile.domain\\entities\\paymentmethod.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7803DF3-7FED-4A57-8839-C34678CF96AE}|AgroFile.Domain\\AgroFile.Domain.csproj|c:\\users\\pizzi\\desktop\\git\\agrofile\\backend\\src\\agrofile.domain\\exceptions\\messages\\messagesaccountagrofiledomainexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7803DF3-7FED-4A57-8839-C34678CF96AE}|AgroFile.Domain\\AgroFile.Domain.csproj|solutionrelative:agrofile.domain\\exceptions\\messages\\messagesaccountagrofiledomainexception.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7803DF3-7FED-4A57-8839-C34678CF96AE}|AgroFile.Domain\\AgroFile.Domain.csproj|c:\\users\\pizzi\\desktop\\git\\agrofile\\backend\\src\\agrofile.domain\\entities\\accounttransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7803DF3-7FED-4A57-8839-C34678CF96AE}|AgroFile.Domain\\AgroFile.Domain.csproj|solutionrelative:agrofile.domain\\entities\\accounttransaction.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7803DF3-7FED-4A57-8839-C34678CF96AE}|AgroFile.Domain\\AgroFile.Domain.csproj|c:\\users\\pizzi\\desktop\\git\\agrofile\\backend\\src\\agrofile.domain\\entities\\accountcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7803DF3-7FED-4A57-8839-C34678CF96AE}|AgroFile.Domain\\AgroFile.Domain.csproj|solutionrelative:agrofile.domain\\entities\\accountcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A7803DF3-7FED-4A57-8839-C34678CF96AE}|AgroFile.Domain\\AgroFile.Domain.csproj|c:\\users\\pizzi\\desktop\\git\\agrofile\\backend\\src\\agrofile.domain\\enum\\accounttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7803DF3-7FED-4A57-8839-C34678CF96AE}|AgroFile.Domain\\AgroFile.Domain.csproj|solutionrelative:agrofile.domain\\enum\\accounttype.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C55397EB-D0A7-4D48-BF68-BD67F1F08329}|AgroFile.Infrastructure\\AgroFile.Infrastructure.csproj|c:\\users\\pizzi\\desktop\\git\\agrofile\\backend\\src\\agrofile.infrastructure\\entitiesconfiguration\\yearmanagementconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C55397EB-D0A7-4D48-BF68-BD67F1F08329}|AgroFile.Infrastructure\\AgroFile.Infrastructure.csproj|solutionrelative:agrofile.infrastructure\\entitiesconfiguration\\yearmanagementconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -22,29 +46,105 @@
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "MessagesAccountAgroFileDomainException.cs",
+              "DocumentMoniker": "C:\\Users\\pizzi\\Desktop\\GIT\\agrofile\\backend\\src\\AgroFile.Domain\\Exceptions\\Messages\\MessagesAccountAgroFileDomainException.cs",
+              "RelativeDocumentMoniker": "AgroFile.Domain\\Exceptions\\Messages\\MessagesAccountAgroFileDomainException.cs",
+              "ToolTip": "C:\\Users\\pizzi\\Desktop\\GIT\\agrofile\\backend\\src\\AgroFile.Domain\\Exceptions\\Messages\\MessagesAccountAgroFileDomainException.cs",
+              "RelativeToolTip": "AgroFile.Domain\\Exceptions\\Messages\\MessagesAccountAgroFileDomainException.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAABtAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T00:13:32.095Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "YearManagement.cs",
-              "DocumentMoniker": "C:\\Users\\pizzi\\Desktop\\GIT\\agrofile\\backend\\src\\AgroFile.Domain\\Entities\\YearManagement.cs",
-              "RelativeDocumentMoniker": "AgroFile.Domain\\Entities\\YearManagement.cs",
-              "ToolTip": "C:\\Users\\pizzi\\Desktop\\GIT\\agrofile\\backend\\src\\AgroFile.Domain\\Entities\\YearManagement.cs",
-              "RelativeToolTip": "AgroFile.Domain\\Entities\\YearManagement.cs",
+              "Title": "PaymentMethod.cs",
+              "DocumentMoniker": "C:\\Users\\pizzi\\Desktop\\GIT\\agrofile\\backend\\src\\AgroFile.Domain\\Entities\\PaymentMethod.cs",
+              "RelativeDocumentMoniker": "AgroFile.Domain\\Entities\\PaymentMethod.cs",
+              "ToolTip": "C:\\Users\\pizzi\\Desktop\\GIT\\agrofile\\backend\\src\\AgroFile.Domain\\Entities\\PaymentMethod.cs",
+              "RelativeToolTip": "AgroFile.Domain\\Entities\\PaymentMethod.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T00:23:58.4Z",
+              "WhenOpened": "2025-03-12T00:11:42.303Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "Account.cs",
+              "DocumentMoniker": "C:\\Users\\pizzi\\Desktop\\GIT\\agrofile\\backend\\src\\AgroFile.Domain\\Entities\\Account.cs",
+              "RelativeDocumentMoniker": "AgroFile.Domain\\Entities\\Account.cs",
+              "ToolTip": "C:\\Users\\pizzi\\Desktop\\GIT\\agrofile\\backend\\src\\AgroFile.Domain\\Entities\\Account.cs",
+              "RelativeToolTip": "AgroFile.Domain\\Entities\\Account.cs",
+              "ViewState": "AgIAABAAAAAAAAAAAAA/wAMAAAAqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-12T00:04:13.348Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "AccountTransaction.cs",
+              "DocumentMoniker": "C:\\Users\\pizzi\\Desktop\\GIT\\agrofile\\backend\\src\\AgroFile.Domain\\Entities\\AccountTransaction.cs",
+              "RelativeDocumentMoniker": "AgroFile.Domain\\Entities\\AccountTransaction.cs",
+              "ToolTip": "C:\\Users\\pizzi\\Desktop\\GIT\\agrofile\\backend\\src\\AgroFile.Domain\\Entities\\AccountTransaction.cs",
+              "RelativeToolTip": "AgroFile.Domain\\Entities\\AccountTransaction.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABAAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T23:58:33.719Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AccountType.cs",
+              "DocumentMoniker": "C:\\Users\\pizzi\\Desktop\\GIT\\agrofile\\backend\\src\\AgroFile.Domain\\Enum\\AccountType.cs",
+              "RelativeDocumentMoniker": "AgroFile.Domain\\Enum\\AccountType.cs",
+              "ToolTip": "C:\\Users\\pizzi\\Desktop\\GIT\\agrofile\\backend\\src\\AgroFile.Domain\\Enum\\AccountType.cs",
+              "RelativeToolTip": "AgroFile.Domain\\Enum\\AccountType.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAQAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T23:26:29.289Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "AccountCategory.cs",
+              "DocumentMoniker": "C:\\Users\\pizzi\\Desktop\\GIT\\agrofile\\backend\\src\\AgroFile.Domain\\Entities\\AccountCategory.cs",
+              "RelativeDocumentMoniker": "AgroFile.Domain\\Entities\\AccountCategory.cs",
+              "ToolTip": "C:\\Users\\pizzi\\Desktop\\GIT\\agrofile\\backend\\src\\AgroFile.Domain\\Entities\\AccountCategory.cs",
+              "RelativeToolTip": "AgroFile.Domain\\Entities\\AccountCategory.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T23:23:47.415Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "YearManagement.cs",
+              "DocumentMoniker": "C:\\Users\\pizzi\\Desktop\\GIT\\agrofile\\backend\\src\\AgroFile.Domain\\Entities\\YearManagement.cs",
+              "RelativeDocumentMoniker": "AgroFile.Domain\\Entities\\YearManagement.cs",
+              "ToolTip": "C:\\Users\\pizzi\\Desktop\\GIT\\agrofile\\backend\\src\\AgroFile.Domain\\Entities\\YearManagement.cs",
+              "RelativeToolTip": "AgroFile.Domain\\Entities\\YearManagement.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-11T00:23:58.4Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "YearManagementConfiguration.cs",
               "DocumentMoniker": "C:\\Users\\pizzi\\Desktop\\GIT\\agrofile\\backend\\src\\AgroFile.Infrastructure\\EntitiesConfiguration\\YearManagementConfiguration.cs",
               "RelativeDocumentMoniker": "AgroFile.Infrastructure\\EntitiesConfiguration\\YearManagementConfiguration.cs",
               "ToolTip": "C:\\Users\\pizzi\\Desktop\\GIT\\agrofile\\backend\\src\\AgroFile.Infrastructure\\EntitiesConfiguration\\YearManagementConfiguration.cs",
               "RelativeToolTip": "AgroFile.Infrastructure\\EntitiesConfiguration\\YearManagementConfiguration.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAABoAAAAbAAAAAAAAAA==",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T00:23:56.601Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-11T00:23:56.601Z"
             }
           ]
         }
