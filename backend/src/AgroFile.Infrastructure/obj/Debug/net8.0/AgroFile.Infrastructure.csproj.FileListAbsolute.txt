@@ -1,0 +1,16 @@
+C:\Users\PC\Desktop\agrofile\backend\src\AgroFile.Infrastructure\bin\Debug\net8.0\AgroFile.Infrastructure.deps.json
+C:\Users\PC\Desktop\agrofile\backend\src\AgroFile.Infrastructure\bin\Debug\net8.0\AgroFile.Infrastructure.dll
+C:\Users\PC\Desktop\agrofile\backend\src\AgroFile.Infrastructure\bin\Debug\net8.0\AgroFile.Infrastructure.pdb
+C:\Users\PC\Desktop\agrofile\backend\src\AgroFile.Infrastructure\bin\Debug\net8.0\AgroFile.Domain.dll
+C:\Users\PC\Desktop\agrofile\backend\src\AgroFile.Infrastructure\bin\Debug\net8.0\AgroFile.Domain.pdb
+C:\Users\PC\Desktop\agrofile\backend\src\AgroFile.Infrastructure\obj\Debug\net8.0\AgroFile.Infrastructure.csproj.AssemblyReference.cache
+C:\Users\PC\Desktop\agrofile\backend\src\AgroFile.Infrastructure\obj\Debug\net8.0\AgroFile.Infrastructure.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Desktop\agrofile\backend\src\AgroFile.Infrastructure\obj\Debug\net8.0\AgroFile.Infrastructure.AssemblyInfoInputs.cache
+C:\Users\PC\Desktop\agrofile\backend\src\AgroFile.Infrastructure\obj\Debug\net8.0\AgroFile.Infrastructure.AssemblyInfo.cs
+C:\Users\PC\Desktop\agrofile\backend\src\AgroFile.Infrastructure\obj\Debug\net8.0\AgroFile.Infrastructure.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\agrofile\backend\src\AgroFile.Infrastructure\obj\Debug\net8.0\AgroFile.Infrastructure.sourcelink.json
+C:\Users\PC\Desktop\agrofile\backend\src\AgroFile.Infrastructure\obj\Debug\net8.0\AgroFile.C8CE1742.Up2Date
+C:\Users\PC\Desktop\agrofile\backend\src\AgroFile.Infrastructure\obj\Debug\net8.0\AgroFile.Infrastructure.dll
+C:\Users\PC\Desktop\agrofile\backend\src\AgroFile.Infrastructure\obj\Debug\net8.0\refint\AgroFile.Infrastructure.dll
+C:\Users\PC\Desktop\agrofile\backend\src\AgroFile.Infrastructure\obj\Debug\net8.0\AgroFile.Infrastructure.pdb
+C:\Users\PC\Desktop\agrofile\backend\src\AgroFile.Infrastructure\obj\Debug\net8.0\ref\AgroFile.Infrastructure.dll

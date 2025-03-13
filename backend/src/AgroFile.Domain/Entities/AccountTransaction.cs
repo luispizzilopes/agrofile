@@ -13,7 +13,7 @@ public class AccountTransaction : BaseEntity
     public DateTime TransactionDate { get; private set; } = DateTime.UtcNow;
     public string? Description { get; private set; }
 
-    public Guid UserCreateId { get; private set; }
+    public string UserCreateId { get; private set; } = string.Empty; 
     public User? UserCreate { get; set; }
     public Guid PaymentMethodId { get; private set; }
     public PaymentMethod? PaymentMethod { get; set; }
@@ -22,7 +22,7 @@ public class AccountTransaction : BaseEntity
 
     private AccountTransaction() { }
 
-    public AccountTransaction(decimal? totalPrice, TypeTransaction type, StatusAccountTransaction status, string? description, Guid userCreateId, Guid paymentMethodId, Guid accountId)
+    public AccountTransaction(decimal? totalPrice, TypeTransaction type, StatusAccountTransaction status, string? description, string userCreateId, Guid paymentMethodId, Guid accountId)
     {
         if (!totalPrice.HasValue || totalPrice <= 0)
             throw new AgroFileDomainException(MessagesAccountTransactionAgroFileDomainException.TotalPriceIsRequired);
@@ -42,7 +42,7 @@ public class AccountTransaction : BaseEntity
         AccountId = accountId;
     }
 
-    public static AccountTransaction Create(decimal? totalPrice, TypeTransaction type, StatusAccountTransaction status, string? description, Guid userCreateId, Guid paymentMethodId, Guid accountId)
+    public static AccountTransaction Create(decimal? totalPrice, TypeTransaction type, StatusAccountTransaction status, string? description, string userCreateId, Guid paymentMethodId, Guid accountId)
     {
         return new AccountTransaction(totalPrice, type, status, description, userCreateId, paymentMethodId, accountId);
     }
