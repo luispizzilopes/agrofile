@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AgroFile.Infrastructure")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6c907cfc54d3ed725541435e271e71231879bcea")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+0586aa1cf9a406b0a61cb87c5e5715806b68cf52")]
 [assembly: System.Reflection.AssemblyProductAttribute("AgroFile.Infrastructure")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AgroFile.Infrastructure")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

@@ -9,6 +9,8 @@ public class PaymentMethod : BaseEntity
     public string Name { get; private set; } = string.Empty;
     public string Description { get; private set; } = string.Empty;
 
+    public ICollection<AccountTransaction>? AccountTransactions { get; set; }
+
     private PaymentMethod() { }
 
     public PaymentMethod(string name, string description)
