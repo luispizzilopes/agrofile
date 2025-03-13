@@ -25,4 +25,3 @@ public class AppDbContext : IdentityDbContext
         builder.ApplyConfigurationsFromAssembly(typeof(AppDbContext).Assembly); 
     }
 }
-}
