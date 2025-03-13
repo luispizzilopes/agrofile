@@ -1,54 +1,12 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\pizzi\\Desktop\\GIT\\agrofile\\backend\\src\\",
-  "Documents": [
-    {
-      "AbsoluteMoniker": "D:0:0:{C55397EB-D0A7-4D48-BF68-BD67F1F08329}|AgroFile.Infrastructure\\AgroFile.Infrastructure.csproj|c:\\users\\pizzi\\desktop\\git\\agrofile\\backend\\src\\agrofile.infrastructure\\entitiesconfiguration\\yearmanagementconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C55397EB-D0A7-4D48-BF68-BD67F1F08329}|AgroFile.Infrastructure\\AgroFile.Infrastructure.csproj|solutionrelative:agrofile.infrastructure\\entitiesconfiguration\\yearmanagementconfiguration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{A7803DF3-7FED-4A57-8839-C34678CF96AE}|AgroFile.Domain\\AgroFile.Domain.csproj|c:\\users\\pizzi\\desktop\\git\\agrofile\\backend\\src\\agrofile.domain\\entities\\yearmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{A7803DF3-7FED-4A57-8839-C34678CF96AE}|AgroFile.Domain\\AgroFile.Domain.csproj|solutionrelative:agrofile.domain\\entities\\yearmanagement.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    }
-  ],
+  "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\",
+  "Documents": [],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": [
-        {
-          "DockedWidth": 200,
-          "SelectedChildIndex": 2,
-          "Children": [
-            {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "YearManagement.cs",
-              "DocumentMoniker": "C:\\Users\\pizzi\\Desktop\\GIT\\agrofile\\backend\\src\\AgroFile.Domain\\Entities\\YearManagement.cs",
-              "RelativeDocumentMoniker": "AgroFile.Domain\\Entities\\YearManagement.cs",
-              "ToolTip": "C:\\Users\\pizzi\\Desktop\\GIT\\agrofile\\backend\\src\\AgroFile.Domain\\Entities\\YearManagement.cs",
-              "RelativeToolTip": "AgroFile.Domain\\Entities\\YearManagement.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T00:23:58.4Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "YearManagementConfiguration.cs",
-              "DocumentMoniker": "C:\\Users\\pizzi\\Desktop\\GIT\\agrofile\\backend\\src\\AgroFile.Infrastructure\\EntitiesConfiguration\\YearManagementConfiguration.cs",
-              "RelativeDocumentMoniker": "AgroFile.Infrastructure\\EntitiesConfiguration\\YearManagementConfiguration.cs",
-              "ToolTip": "C:\\Users\\pizzi\\Desktop\\GIT\\agrofile\\backend\\src\\AgroFile.Infrastructure\\EntitiesConfiguration\\YearManagementConfiguration.cs",
-              "RelativeToolTip": "AgroFile.Infrastructure\\EntitiesConfiguration\\YearManagementConfiguration.cs",
-              "ViewState": "AgIAAAIAAAAAAAAAAAAAABoAAAAbAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-11T00:23:56.601Z",
-              "EditorCaption": ""
-            }
-          ]
-        }
-      ]
+      "DocumentGroups": []
     }
   ]
 }
