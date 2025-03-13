@@ -13,6 +13,8 @@ public class Account : BaseEntity
     public Guid AccountCategoryId { get; set; }
     public AccountCategory? AccountCategory { get; set; }
 
+    public ICollection<AccountTransaction>? AccountTransactions { get; set; }
+
     public Account() { }
 
     public Account(string title, string subTitle, bool isActive, Guid accountCategoryId)

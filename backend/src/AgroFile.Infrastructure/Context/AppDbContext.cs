@@ -13,6 +13,10 @@ public class AppDbContext : IdentityDbContext
     public DbSet<Plot> Plots { get; set; }
     public DbSet<Estate> Estates { get; set; }
     public DbSet<YearManagement> YearsManagement { get; set; }
+    public DbSet<Account> Accounts { get; set; }
+    public DbSet<AccountCategory> AccountCategories { get; set; }
+    public DbSet<AccountTransaction> AccountTransactions { get; set; }
+    public DbSet<PaymentMethod> PaymentMethods { get; set; }
 
     protected override void OnModelCreating(ModelBuilder builder)
     {
