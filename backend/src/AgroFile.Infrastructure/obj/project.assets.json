@@ -2019,24 +2019,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\pizzi\\.nuget\\packages\\": {},
-    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
+    "C:\\Users\\PC\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\pizzi\\Desktop\\GIT\\agrofile\\backend\\src\\AgroFile.Infrastructure\\AgroFile.Infrastructure.csproj",
+      "projectUniqueName": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.Infrastructure\\AgroFile.Infrastructure.csproj",
       "projectName": "AgroFile.Infrastructure",
-      "projectPath": "C:\\Users\\pizzi\\Desktop\\GIT\\agrofile\\backend\\src\\AgroFile.Infrastructure\\AgroFile.Infrastructure.csproj",
-      "packagesPath": "C:\\Users\\pizzi\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\pizzi\\Desktop\\GIT\\agrofile\\backend\\src\\AgroFile.Infrastructure\\obj\\",
+      "projectPath": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.Infrastructure\\AgroFile.Infrastructure.csproj",
+      "packagesPath": "C:\\Users\\PC\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.Infrastructure\\obj\\",
       "projectStyle": "PackageReference",
-      "fallbackFolders": [
-        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-      ],
       "configFilePaths": [
-        "C:\\Users\\pizzi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+        "C:\\Users\\PC\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -2050,8 +2045,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\pizzi\\Desktop\\GIT\\agrofile\\backend\\src\\AgroFile.Domain\\AgroFile.Domain.csproj": {
-              "projectPath": "C:\\Users\\pizzi\\Desktop\\GIT\\agrofile\\backend\\src\\AgroFile.Domain\\AgroFile.Domain.csproj"
+            "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.Domain\\AgroFile.Domain.csproj": {
+              "projectPath": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.Domain\\AgroFile.Domain.csproj"
             }
           }
         }
@@ -2065,8 +2060,7 @@
         "enableAudit": "true",
         "auditLevel": "low",
         "auditMode": "direct"
-      },
-      "SdkAnalysisLevel": "9.0.200"
+      }
     },
     "frameworks": {
       "net8.0": {
@@ -2097,7 +2091,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.200/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\8.0.202/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

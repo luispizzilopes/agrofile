@@ -1,4 +1,4 @@
-﻿namespace AgroFile.Domain.Enum; 
+﻿namespace AgroFile.Domain.Enums; 
 
 public enum StatusAccountTransaction
 {
