@@ -6,8 +6,8 @@ namespace AgroFile.Domain.Interfaces;
 public interface IUserRepository
 {
     Task<PaginedResult<User>> GetUsers(PaginationParams parameters);
-    Task<Department> GetUser(Guid id);
-    Task<Department> CreateUser(User user);
-    Task<Department> UpdateUser(User user);
+    Task<User> GetUser(string id);
+    Task<bool> CreateUser(User user, string password);
+    Task<bool> UpdateUser(User user);
     Task<bool> DeleteUser(User user); 
 }
