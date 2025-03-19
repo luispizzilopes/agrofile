@@ -6,6 +6,8 @@ using AgroFile.Domain.Entities;
 using Microsoft.AspNetCore.Identity;
 using AgroFile.Domain.Interfaces;
 using AgroFile.Infrastructure.Repositories;
+using AgroFile.Application.Interfaces;
+using AgroFile.Application.Services;
 
 namespace AgroFile.CrossCutting.IoC; 
 
@@ -36,6 +38,17 @@ public static class DependencyInjection
     public static IServiceCollection AddRepositories(this IServiceCollection services)
     {
         services.AddScoped<IUserRepository, UserRepository>();
+        services.AddScoped<IAuthenticationRepository, AuthenticationRepository>();
+
+        return services; 
+    }
+
+    public static IServiceCollection AddServices(this IServiceCollection services)
+    {
+        services.AddScoped<IAuthenticationService, AuthenticationService>();
+        services.AddScoped<IPasswordService, PasswordService>();
+        services.AddScoped<ITokenJwtService, TokenJwtService>();
+        services.AddScoped<IUserService, UserService>();
 
         return services; 
     }

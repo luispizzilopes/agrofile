@@ -22,6 +22,8 @@ public class AppDbContext : IdentityDbContext<User>
     {
         base.OnModelCreating(builder);
 
+        builder.Entity<User>().ToTable("AspNetUsers");
+
         builder.ApplyConfigurationsFromAssembly(typeof(AppDbContext).Assembly); 
     }
 }

@@ -27,6 +27,14 @@ public class UserRepository : IUserRepository
             .FirstOrDefaultAsync(x => x.Id == id)
             ?? throw new KeyNotFoundException("Não foi possível encontrar um usuario com o Id informado."); 
     }
+    public async Task<User> GetUserByEmail(string email)
+    {
+        return await _context.Users
+            .AsNoTracking()
+            .AsQueryable()
+            .FirstOrDefaultAsync(x => x.Email == email)
+            ?? throw new KeyNotFoundException("Não foi possível encontrar um usuario com o e-mail informado.");
+    }
 
     public async Task<PaginedResult<User>> GetUsers(PaginationParams parameters)
     {
