@@ -1,8 +1,8 @@
 ﻿using AgroFile.Domain.Common;
 using AgroFile.Domain.Enums;
-using AgroFile.Domain.Exceptions.Messages;
 using AgroFile.Domain.Exceptions;
-using System; 
+using System;
+using AgroFile.Domain.Messages;
 
 namespace AgroFile.Domain.Entities;
 public class AccountTransaction : BaseEntity
@@ -25,13 +25,13 @@ public class AccountTransaction : BaseEntity
     public AccountTransaction(decimal? totalPrice, TypeTransaction type, StatusAccountTransaction status, string? description, string userCreateId, Guid paymentMethodId, Guid accountId)
     {
         if (!totalPrice.HasValue || totalPrice <= 0)
-            throw new AgroFileDomainException(MessagesAccountTransactionAgroFileDomainException.TotalPriceIsRequired);
+            throw new AgroFileDomainException(MessagesAccountTransactionAgroFileDomain.TotalPriceIsRequired);
 
         if (!Enum.IsDefined(typeof(TypeTransaction), type))
-            throw new AgroFileDomainException(MessagesAccountTransactionAgroFileDomainException.InvalidTypeTransaction);
+            throw new AgroFileDomainException(MessagesAccountTransactionAgroFileDomain.InvalidTypeTransaction);
 
         if (!Enum.IsDefined(typeof(StatusAccountTransaction), status))
-            throw new AgroFileDomainException(MessagesAccountTransactionAgroFileDomainException.InvalidStatusAccountTransaction);
+            throw new AgroFileDomainException(MessagesAccountTransactionAgroFileDomain.InvalidStatusAccountTransaction);
 
         TotalPrice = totalPrice;
         Type = type;

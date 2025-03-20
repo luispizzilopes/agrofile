@@ -1,6 +1,6 @@
-﻿namespace AgroFile.Domain.Exceptions.Messages;
+﻿namespace AgroFile.Domain.Messages;
 
-internal class MessagesAccountTransactionAgroFileDomainException
+internal class MessagesAccountTransactionAgroFileDomain
 {
     public static string TotalPriceIsRequired = "O preço total é obrigatório e deve ser maior que zero";
     public static string InvalidTypeTransaction = "O tipo de transação informado é inválido";

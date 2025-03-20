@@ -1,6 +1,6 @@
 ﻿using AgroFile.Domain.Common;
 using AgroFile.Domain.Exceptions;
-using AgroFile.Domain.Exceptions.Messages;
+using AgroFile.Domain.Messages;
 
 namespace AgroFile.Domain.Entities;
 
@@ -15,10 +15,10 @@ public class Department : BaseEntity
     public Department(string name, string description)
     {
         if (string.IsNullOrEmpty(name))
-            throw new AgroFileDomainException(MessagesDepartmentAgroFileDomainException.NameIsRequired);
+            throw new AgroFileDomainException(MessagesDepartmentAgroFileDomain.NameIsRequired);
 
         if (string.IsNullOrEmpty(description))
-            throw new AgroFileDomainException(MessagesDepartmentAgroFileDomainException.DescriptionIsRequired);
+            throw new AgroFileDomainException(MessagesDepartmentAgroFileDomain.DescriptionIsRequired);
 
         Name = name;
         Description = description;

@@ -1,8 +1,8 @@
 ﻿using AgroFile.Application.Dtos.User;
 using AgroFile.Application.Exceptions;
-using AgroFile.Application.Exceptions.Messages;
 using AgroFile.Application.Interfaces;
 using AgroFile.Application.Interfaces.Validators;
+using AgroFile.Application.Messages;
 using AgroFile.Domain.Common;
 using AgroFile.Domain.Entities;
 using AgroFile.Domain.Interfaces;
@@ -35,16 +35,17 @@ public class UserService : IUserService
         return entitiesPaginedResult.Adapt<PaginedResult<UserSummaryDTO>>();
     }
 
-    public async Task<bool> CreateUser(UserDTO user)
+    public async Task<Result> CreateUser(UserDTO user)
     {
-        await _userValidator.ValidateUser(user);
+        Result validationResult = await _userValidator.ValidateCreateUser(user);
+        if (!validationResult.IsSuccess) return validationResult; 
 
         User userEntity = MapToUserEntityOnCreate(user); 
         bool crateResult = await _userRepository.CreateUser(userEntity, _passwordService.GenerateRandomPassword());
 
-        if (!crateResult) throw new AgroFileApplicationException(MessagesUserAgroFileApplicationException.CreateFailure);
+        if (!crateResult) Result.Failure(MessagesUserAgroFileApplication.CreateFailure);
 
-        return true; 
+        return Result.Success(MessagesUserAgroFileApplication.CreateSuccess); 
     }
 
     private User MapToUserEntityOnCreate(UserDTO user)
@@ -57,16 +58,17 @@ public class UserService : IUserService
         return userEntity; 
     }
 
-    public async Task<bool> UpdateUser(UserDTO user)
+    public async Task<Result> UpdateUser(UserDTO user)
     {
-        await _userValidator.ValidateUser(user);
+        Result validationResult = await _userValidator.ValidateUpdateUser(user);
+        if (!validationResult.IsSuccess) return validationResult;
 
         User userEntity = await MapToUserEntityOnUpdate(user); 
         bool updateResult = await _userRepository.UpdateUser(userEntity);
 
-        if (!updateResult) throw new AgroFileApplicationException(MessagesUserAgroFileApplicationException.UpdateFailure);
+        if (!updateResult) Result.Failure(MessagesUserAgroFileApplication.UpdateFailure);
 
-        return true;
+        return Result.Success(MessagesUserAgroFileApplication.UpdateSuccess);
     }
 
     private async Task<User> MapToUserEntityOnUpdate(UserDTO user)
@@ -77,13 +79,12 @@ public class UserService : IUserService
         return userEntity;
     }
 
-    public async Task<bool> DeleteUser(string id)
+    public async Task<Result> DeleteUser(string id)
     {
-        User userEntity = await _userRepository.GetUser(id);
-        bool deleteResult = await _userRepository.DeleteUser(userEntity);
+        bool deleteResult = await _userRepository.DeleteUser(id);
 
-        if (!deleteResult) throw new AgroFileApplicationException(MessagesUserAgroFileApplicationException.DeleteFailure);
+        if (!deleteResult) Result.Failure(MessagesUserAgroFileApplication.DeleteFailure); 
 
-        return true;
+        return Result.Success(MessagesUserAgroFileApplication.DeleteSuccess);
     }
 }

@@ -1,8 +1,10 @@
 ﻿using AgroFile.Application.Dtos.User;
+using AgroFile.Domain.Common;
 
 namespace AgroFile.Application.Interfaces.Validators;
 
 public interface IUserValidator
 {
-    Task ValidateUser(UserDTO user); 
+    Task<Result> ValidateCreateUser(UserDTO user); 
+    Task<Result> ValidateUpdateUser(UserDTO user); 
 }

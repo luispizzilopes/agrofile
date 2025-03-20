@@ -1,6 +1,6 @@
 ﻿using AgroFile.Domain.Common;
 using AgroFile.Domain.Exceptions;
-using AgroFile.Domain.Exceptions.Messages;
+using AgroFile.Domain.Messages;
 
 namespace AgroFile.Domain.Entities;
 

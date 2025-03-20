@@ -31,21 +31,21 @@ public class UserController : ControllerBase
     [HttpPost]
     public async Task<ActionResult> CreateUser([FromBody] UserDTO user)
     {
-        bool result = await _userService.CreateUser(user);
-        return result ? Ok("Usuário adicionado com sucesso!") : BadRequest("Não foi possível adicionar o usuário!");
+        Result result = await _userService.CreateUser(user);
+        return result.IsSuccess ? Ok(result) : BadRequest(result);
     }
 
     [HttpPut]
     public async Task<ActionResult> UpdateUser([FromBody] UserDTO user)
     {
-        bool result = await _userService.UpdateUser(user);
-        return result ? Ok("Usuário atualizado com sucesso!") : BadRequest("Não foi possível atualizar o usuário!");
+        Result result = await _userService.UpdateUser(user);
+        return result.IsSuccess ? Ok(result) : BadRequest(result);
     }
 
     [HttpDelete("{id}")]
     public async Task<ActionResult> DeleteUser([FromRoute] string id)
     {
-        bool result = await _userService.DeleteUser(id);
-        return result ? Ok("Usuário deletado com sucesso!") : BadRequest("Não foi possível deletar o usuário!");
+        Result result = await _userService.DeleteUser(id);
+        return result.IsSuccess ? Ok(result) : BadRequest(result);
     }
 }

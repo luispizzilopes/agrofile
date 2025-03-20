@@ -62,9 +62,17 @@ public class UserRepository : IUserRepository
         return result.Succeeded; 
     }
 
-    public async Task<bool> DeleteUser(User user)
+    public async Task<bool> DeleteUser(string id)
     {
+        var user = await GetUser(id); 
         var result = await _userManager.DeleteAsync(user);
         return result.Succeeded;
+    }
+
+    public async Task<bool> UserEmailExists(string email)
+    {
+        return await _context.Users
+            .Where(u => u.Email == email)
+            .AnyAsync(); 
     }
 }

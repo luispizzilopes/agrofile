@@ -1,8 +1,7 @@
 ﻿using AgroFile.Application.Dtos.User;
-using AgroFile.Application.Exceptions;
-using AgroFile.Application.Exceptions.Messages;
 using AgroFile.Application.Interfaces.Validators;
-using AgroFile.Domain.Entities;
+using AgroFile.Application.Messages;
+using AgroFile.Domain.Common;
 using AgroFile.Domain.Interfaces;
 
 namespace AgroFile.Application.Validators;
@@ -16,16 +15,25 @@ public class UserValidator : IUserValidator
         _userRepository = userRepository;
     }
 
-    public async Task ValidateUser(UserDTO user)
+    public async Task<Result> ValidateCreateUser(UserDTO user)
     {
-        User userEntity = await _userRepository.GetUserByEmail(user.Email);
-
-        ValidateUserEmailExists(userEntity); 
+        return await ValidateUserEmailExists(user.Email); 
     }
 
-    private void ValidateUserEmailExists(User userEntity)
+    public async Task<Result> ValidateUpdateUser(UserDTO user)
     {
-        if (userEntity is not null) 
-            throw new AgroFileApplicationException(MessagesUserAgroFileApplicationException.UserEmailAlreadyExists); 
+        if(!string.IsNullOrEmpty(user.NewEmail)) return await ValidateUserEmailExists(user.NewEmail);
+
+        return Result.Success(string.Empty); 
+    }
+
+    private async Task<Result> ValidateUserEmailExists(string email)
+    {
+        bool exists = await _userRepository.UserEmailExists(email);
+
+        if (exists) 
+            return Result.Failure(MessagesUserAgroFileApplication.UserEmailAlreadyExists);
+
+        return Result.Success(string.Empty); 
     }
 }

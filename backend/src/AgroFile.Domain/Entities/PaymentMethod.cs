@@ -1,8 +1,8 @@
 ﻿using AgroFile.Domain.Common;
-using AgroFile.Domain.Exceptions.Messages;
 using AgroFile.Domain.Exceptions;
+using AgroFile.Domain.Messages;
 
-namespace AgroFile.Domain.Entities; 
+namespace AgroFile.Domain.Entities;
 
 public class PaymentMethod : BaseEntity
 {
@@ -16,10 +16,10 @@ public class PaymentMethod : BaseEntity
     public PaymentMethod(string name, string description)
     {
         if (string.IsNullOrWhiteSpace(name))
-            throw new AgroFileDomainException(MessagesPaymentMethodAgroFileDomainException.NameIsRequired);
+            throw new AgroFileDomainException(MessagesPaymentMethodAgroFileDomain.NameIsRequired);
 
         if(string.IsNullOrEmpty(description))
-            throw new AgroFileDomainException(MessagesPaymentMethodAgroFileDomainException.DescriptionIsRequired);
+            throw new AgroFileDomainException(MessagesPaymentMethodAgroFileDomain.DescriptionIsRequired);
 
         Name = name;
         Description = description;

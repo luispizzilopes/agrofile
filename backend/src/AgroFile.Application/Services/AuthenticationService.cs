@@ -1,11 +1,11 @@
 ﻿using AgroFile.Application.Dtos.Authentication;
 using AgroFile.Application.Exceptions;
-using AgroFile.Application.Exceptions.Messages;
 using AgroFile.Application.Interfaces;
+using AgroFile.Application.Messages;
 using AgroFile.Domain.Entities;
 using AgroFile.Domain.Interfaces;
 
-namespace AgroFile.Application.Services; 
+namespace AgroFile.Application.Services;
 
 public class AuthenticationService : IAuthenticationService
 {
@@ -26,7 +26,7 @@ public class AuthenticationService : IAuthenticationService
             await _authenticationRepository.PasswordSignIn(informationForAuthentication.Email, informationForAuthentication.Password);
 
         if (informationProvidedIsValidForAuthentication is false) 
-            throw new AgroFileApplicationException(MessagesAuthenticationAgroFileApplicationException.AuthenticationFailure);
+            throw new AgroFileApplicationException(MessagesAuthenticationAgroFileApplication.AuthenticationFailure);
 
         return await GetUserSession(informationForAuthentication.Email); 
     }

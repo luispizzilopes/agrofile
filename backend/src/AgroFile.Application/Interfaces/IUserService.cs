@@ -7,7 +7,7 @@ public interface IUserService
 {
     Task<PaginedResult<UserSummaryDTO>> GetUsers(PaginationParams parameters);
     Task<UserSummaryDTO> GetUser(string id);
-    Task<bool> CreateUser(UserDTO user);
-    Task<bool> UpdateUser(UserDTO user);
-    Task<bool> DeleteUser(string id); 
+    Task<Result> CreateUser(UserDTO user);
+    Task<Result> UpdateUser(UserDTO user);
+    Task<Result> DeleteUser(string id); 
 }

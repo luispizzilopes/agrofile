@@ -1,6 +1,6 @@
 ﻿using AgroFile.Domain.Common;
 using AgroFile.Domain.Exceptions;
-using AgroFile.Domain.Exceptions.Messages;
+using AgroFile.Domain.Messages;
 
 namespace AgroFile.Domain.Entities;
 
@@ -20,10 +20,10 @@ public class Estate : BaseEntity
     public Estate(string name, string description, string? address, string? city, string? state, string? coutry)
     {
         if (string.IsNullOrEmpty(name))
-            throw new AgroFileDomainException(MessagesEstateAgroFileDomainException.NameIsRequired);
+            throw new AgroFileDomainException(MessagesEstateAgroFileDomain.NameIsRequired);
 
         if (string.IsNullOrEmpty(name))
-            throw new AgroFileDomainException(MessagesEstateAgroFileDomainException.DescriptionIsRequired); 
+            throw new AgroFileDomainException(MessagesEstateAgroFileDomain.DescriptionIsRequired); 
 
         Name = name;
         Description = description;

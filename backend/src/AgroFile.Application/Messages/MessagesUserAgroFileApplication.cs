@@ -1,7 +1,11 @@
-﻿namespace AgroFile.Application.Exceptions.Messages; 
+﻿namespace AgroFile.Application.Messages;
 
-internal class MessagesUserAgroFileApplicationException
+internal class MessagesUserAgroFileApplication
 {
+    public static string CreateSuccess = "Usuário criado com sucesso!";
+    public static string UpdateSuccess = "Usuário atualizado com sucesso!";
+    public static string DeleteSuccess = "Usuário deletado com sucesso!";
+
     public static string CreateFailure = "Não foi possível criar o usuário!";
     public static string UpdateFailure = "Não foi possível atualizar o usuário!";
     public static string DeleteFailure = "Não foi possível deletar o usuário!";

@@ -1,8 +1,8 @@
 ﻿using AgroFile.Domain.Common;
 using AgroFile.Domain.Exceptions;
-using AgroFile.Domain.Exceptions.Messages;
+using AgroFile.Domain.Messages;
 
-namespace AgroFile.Domain.Entities; 
+namespace AgroFile.Domain.Entities;
 
 public class AccountCategory : BaseEntity
 {
@@ -16,10 +16,10 @@ public class AccountCategory : BaseEntity
     public AccountCategory(string name, string description)
     {
         if (string.IsNullOrEmpty(name))
-            throw new AgroFileDomainException(MessagesAccountCategoryAgroFileDomainException.NameIsRequired);
+            throw new AgroFileDomainException(MessagesAccountCategoryAgroFileDomain.NameIsRequired);
 
         if (string.IsNullOrEmpty(description))
-            throw new AgroFileDomainException(MessagesAccountCategoryAgroFileDomainException.DescriptionIsRequired);
+            throw new AgroFileDomainException(MessagesAccountCategoryAgroFileDomain.DescriptionIsRequired);
 
         Name = name;
         Description = description;
