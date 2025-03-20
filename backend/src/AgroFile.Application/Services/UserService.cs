@@ -2,6 +2,7 @@
 using AgroFile.Application.Exceptions;
 using AgroFile.Application.Exceptions.Messages;
 using AgroFile.Application.Interfaces;
+using AgroFile.Application.Interfaces.Validators;
 using AgroFile.Domain.Common;
 using AgroFile.Domain.Entities;
 using AgroFile.Domain.Interfaces;
@@ -13,11 +14,13 @@ public class UserService : IUserService
 {
     private readonly IUserRepository _userRepository;
     private readonly IPasswordService _passwordService;
+    private readonly IUserValidator _userValidator;
 
-    public UserService(IUserRepository userRepository, IPasswordService passwordService)
+    public UserService(IUserRepository userRepository, IPasswordService passwordService, IUserValidator userValidator)
     {
         _userRepository = userRepository;
         _passwordService = passwordService;
+        _userValidator = userValidator;
     }
 
     public async Task<UserSummaryDTO> GetUser(string id)
@@ -34,36 +37,53 @@ public class UserService : IUserService
 
     public async Task<bool> CreateUser(UserDTO user)
     {
-        string randomPassword = _passwordService.GenerateRandomPassword();
+        await _userValidator.ValidateUser(user);
 
-        User userEntity = user.Adapt<User>(); 
+        User userEntity = MapToUserEntityOnCreate(user); 
+        bool crateResult = await _userRepository.CreateUser(userEntity, _passwordService.GenerateRandomPassword());
+
+        if (!crateResult) throw new AgroFileApplicationException(MessagesUserAgroFileApplicationException.CreateFailure);
+
+        return true; 
+    }
+
+    private User MapToUserEntityOnCreate(UserDTO user)
+    {
+        User userEntity = user.Adapt<User>();
 
         userEntity.Id = Guid.NewGuid().ToString();
         userEntity.SecurityStamp = Guid.NewGuid().ToString();
 
-        bool result = await _userRepository.CreateUser(userEntity, randomPassword);
-
-        if (result is false) throw new AgroFileApplicationException(MessagesUserAgroFileApplicationException.CreateFailure);
-
-        return result; 
+        return userEntity; 
     }
 
     public async Task<bool> UpdateUser(UserDTO user)
     {
-        bool result = await _userRepository.UpdateUser(user.Adapt<User>());
+        await _userValidator.ValidateUser(user);
 
-        if (result is false) throw new AgroFileApplicationException(MessagesUserAgroFileApplicationException.UpdateFailure);
+        User userEntity = await MapToUserEntityOnUpdate(user); 
+        bool updateResult = await _userRepository.UpdateUser(userEntity);
 
-        return result;
+        if (!updateResult) throw new AgroFileApplicationException(MessagesUserAgroFileApplicationException.UpdateFailure);
+
+        return true;
+    }
+
+    private async Task<User> MapToUserEntityOnUpdate(UserDTO user)
+    {
+        User userEntity = await _userRepository.GetUser(user.Id);
+        user.Adapt(userEntity); 
+
+        return userEntity;
     }
 
     public async Task<bool> DeleteUser(string id)
     {
         User userEntity = await _userRepository.GetUser(id);
-        bool result = await _userRepository.DeleteUser(userEntity);
+        bool deleteResult = await _userRepository.DeleteUser(userEntity);
 
-        if (result is false) throw new AgroFileApplicationException(MessagesUserAgroFileApplicationException.DeleteFailure);
+        if (!deleteResult) throw new AgroFileApplicationException(MessagesUserAgroFileApplicationException.DeleteFailure);
 
-        return result;
+        return true;
     }
 }

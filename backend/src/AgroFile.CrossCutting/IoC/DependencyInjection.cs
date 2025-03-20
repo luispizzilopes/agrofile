@@ -8,6 +8,8 @@ using AgroFile.Domain.Interfaces;
 using AgroFile.Infrastructure.Repositories;
 using AgroFile.Application.Interfaces;
 using AgroFile.Application.Services;
+using AgroFile.Application.Interfaces.Validators;
+using AgroFile.Application.Validators; 
 
 namespace AgroFile.CrossCutting.IoC; 
 
@@ -49,6 +51,13 @@ public static class DependencyInjection
         services.AddScoped<IPasswordService, PasswordService>();
         services.AddScoped<ITokenJwtService, TokenJwtService>();
         services.AddScoped<IUserService, UserService>();
+
+        return services; 
+    }
+
+    public static IServiceCollection AddValidators(this IServiceCollection services)
+    {
+        services.AddScoped<IUserValidator, UserValidator>();
 
         return services; 
     }

@@ -8,6 +8,7 @@ builder.Services.AddSwaggerGen();
 builder.Services.AddHttpContextAccessor();
 builder.Services.AddRepositories();
 builder.Services.AddServices();
+builder.Services.AddValidators();
 builder.Services.AddIdentityUser();
 builder.Services.AddDbContext(builder.Configuration);
 
