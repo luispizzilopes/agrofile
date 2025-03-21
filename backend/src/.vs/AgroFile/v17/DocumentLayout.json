@@ -3,32 +3,24 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{7E54197B-39A9-4DBE-8B7A-4D2C0E330C99}|AgroFile.WebAPI\\AgroFile.WebAPI.csproj|c:\\users\\pc\\desktop\\agrofile\\backend\\src\\agrofile.webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{7E54197B-39A9-4DBE-8B7A-4D2C0E330C99}|AgroFile.WebAPI\\AgroFile.WebAPI.csproj|solutionrelative:agrofile.webapi\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{C7FFAC20-A623-4B33-BEF2-C36FE511BD76}|AgroFile.Application\\AgroFile.Application.csproj|c:\\users\\pc\\desktop\\agrofile\\backend\\src\\agrofile.application\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7FFAC20-A623-4B33-BEF2-C36FE511BD76}|AgroFile.Application\\AgroFile.Application.csproj|solutionrelative:agrofile.application\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7FFAC20-A623-4B33-BEF2-C36FE511BD76}|AgroFile.Application\\AgroFile.Application.csproj|c:\\users\\pc\\desktop\\agrofile\\backend\\src\\agrofile.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7FFAC20-A623-4B33-BEF2-C36FE511BD76}|AgroFile.Application\\AgroFile.Application.csproj|solutionrelative:agrofile.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7FFAC20-A623-4B33-BEF2-C36FE511BD76}|AgroFile.Application\\AgroFile.Application.csproj|c:\\users\\pc\\desktop\\agrofile\\backend\\src\\agrofile.application\\dtos\\user\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7FFAC20-A623-4B33-BEF2-C36FE511BD76}|AgroFile.Application\\AgroFile.Application.csproj|solutionrelative:agrofile.application\\dtos\\user\\userdto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A7803DF3-7FED-4A57-8839-C34678CF96AE}|AgroFile.Domain\\AgroFile.Domain.csproj|c:\\users\\pc\\desktop\\agrofile\\backend\\src\\agrofile.domain\\common\\resultwithvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7803DF3-7FED-4A57-8839-C34678CF96AE}|AgroFile.Domain\\AgroFile.Domain.csproj|solutionrelative:agrofile.domain\\common\\resultwithvalue.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A7803DF3-7FED-4A57-8839-C34678CF96AE}|AgroFile.Domain\\AgroFile.Domain.csproj|c:\\users\\pc\\desktop\\agrofile\\backend\\src\\agrofile.domain\\common\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{A7803DF3-7FED-4A57-8839-C34678CF96AE}|AgroFile.Domain\\AgroFile.Domain.csproj|solutionrelative:agrofile.domain\\common\\result.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7FFAC20-A623-4B33-BEF2-C36FE511BD76}|AgroFile.Application\\AgroFile.Application.csproj|c:\\users\\pc\\desktop\\agrofile\\backend\\src\\agrofile.application\\messages\\messagesuseragrofileapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7FFAC20-A623-4B33-BEF2-C36FE511BD76}|AgroFile.Application\\AgroFile.Application.csproj|solutionrelative:agrofile.application\\messages\\messagesuseragrofileapplication.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A7803DF3-7FED-4A57-8839-C34678CF96AE}|AgroFile.Domain\\AgroFile.Domain.csproj|c:\\users\\pc\\desktop\\agrofile\\backend\\src\\agrofile.domain\\interfaces\\iauthenticationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A7803DF3-7FED-4A57-8839-C34678CF96AE}|AgroFile.Domain\\AgroFile.Domain.csproj|solutionrelative:agrofile.domain\\interfaces\\iauthenticationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7FFAC20-A623-4B33-BEF2-C36FE511BD76}|AgroFile.Application\\AgroFile.Application.csproj|c:\\users\\pc\\desktop\\agrofile\\backend\\src\\agrofile.application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7FFAC20-A623-4B33-BEF2-C36FE511BD76}|AgroFile.Application\\AgroFile.Application.csproj|solutionrelative:agrofile.application\\interfaces\\iuserservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{C7FFAC20-A623-4B33-BEF2-C36FE511BD76}|AgroFile.Application\\AgroFile.Application.csproj|c:\\users\\pc\\desktop\\agrofile\\backend\\src\\agrofile.application\\interfaces\\validators\\iuservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7FFAC20-A623-4B33-BEF2-C36FE511BD76}|AgroFile.Application\\AgroFile.Application.csproj|solutionrelative:agrofile.application\\interfaces\\validators\\iuservalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D39EC98B-3CEF-431F-88BE-DC1647337D4F}|AgroFile.CrossCutting\\AgroFile.CrossCutting.csproj|c:\\users\\pc\\desktop\\agrofile\\backend\\src\\agrofile.crosscutting\\ioc\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D39EC98B-3CEF-431F-88BE-DC1647337D4F}|AgroFile.CrossCutting\\AgroFile.CrossCutting.csproj|solutionrelative:agrofile.crosscutting\\ioc\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,97 +30,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 3,
+          "SelectedChildIndex": 2,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "Result.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.Domain\\Common\\Result.cs",
-              "RelativeDocumentMoniker": "AgroFile.Domain\\Common\\Result.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.Domain\\Common\\Result.cs",
-              "RelativeToolTip": "AgroFile.Domain\\Common\\Result.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwBQAAAAuAAAA",
+              "DocumentIndex": 1,
+              "Title": "ResultWithValue.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.Domain\\Common\\ResultWithValue.cs",
+              "RelativeDocumentMoniker": "AgroFile.Domain\\Common\\ResultWithValue.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.Domain\\Common\\ResultWithValue.cs",
+              "RelativeToolTip": "AgroFile.Domain\\Common\\ResultWithValue.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAEAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T22:44:40.236Z",
+              "WhenOpened": "2025-03-21T00:02:15.971Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
-              "Title": "UserDTO.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.Application\\Dtos\\User\\UserDTO.cs",
-              "RelativeDocumentMoniker": "AgroFile.Application\\Dtos\\User\\UserDTO.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.Application\\Dtos\\User\\UserDTO.cs",
-              "RelativeToolTip": "AgroFile.Application\\Dtos\\User\\UserDTO.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAcAAAArAAAA",
+              "Title": "Result.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.Domain\\Common\\Result.cs",
+              "RelativeDocumentMoniker": "AgroFile.Domain\\Common\\Result.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.Domain\\Common\\Result.cs",
+              "RelativeToolTip": "AgroFile.Domain\\Common\\Result.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAIAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T22:41:06.716Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "MessagesUserAgroFileApplication.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.Application\\Messages\\MessagesUserAgroFileApplication.cs",
-              "RelativeDocumentMoniker": "AgroFile.Application\\Messages\\MessagesUserAgroFileApplication.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.Application\\Messages\\MessagesUserAgroFileApplication.cs",
-              "RelativeToolTip": "AgroFile.Application\\Messages\\MessagesUserAgroFileApplication.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAYAAABHAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T22:45:20.554Z",
+              "WhenOpened": "2025-03-21T00:02:06.942Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "UserController.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.WebAPI\\Controllers\\UserController.cs",
-              "RelativeDocumentMoniker": "AgroFile.WebAPI\\Controllers\\UserController.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.WebAPI\\Controllers\\UserController.cs",
-              "RelativeToolTip": "AgroFile.WebAPI\\Controllers\\UserController.cs",
-              "ViewState": "AQIAAAsAAAAAAAAAAAAQwC0AAABFAAAA",
+              "Title": "AuthenticationService.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.Application\\Services\\AuthenticationService.cs",
+              "RelativeDocumentMoniker": "AgroFile.Application\\Services\\AuthenticationService.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.Application\\Services\\AuthenticationService.cs",
+              "RelativeToolTip": "AgroFile.Application\\Services\\AuthenticationService.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAABwAAACFAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T22:38:23.309Z",
+              "WhenOpened": "2025-03-21T00:01:44.074Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "IUserService.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.Application\\Interfaces\\IUserService.cs",
-              "RelativeDocumentMoniker": "AgroFile.Application\\Interfaces\\IUserService.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.Application\\Interfaces\\IUserService.cs",
-              "RelativeToolTip": "AgroFile.Application\\Interfaces\\IUserService.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAqwAUAAAAdAAAA",
+              "DocumentIndex": 3,
+              "Title": "IAuthenticationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.Domain\\Interfaces\\IAuthenticationRepository.cs",
+              "RelativeDocumentMoniker": "AgroFile.Domain\\Interfaces\\IAuthenticationRepository.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.Domain\\Interfaces\\IAuthenticationRepository.cs",
+              "RelativeToolTip": "AgroFile.Domain\\Interfaces\\IAuthenticationRepository.cs",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T22:34:37.942Z",
+              "WhenOpened": "2025-03-21T00:00:15.696Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "UserService.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.Application\\Services\\UserService.cs",
-              "RelativeDocumentMoniker": "AgroFile.Application\\Services\\UserService.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.Application\\Services\\UserService.cs",
-              "RelativeToolTip": "AgroFile.Application\\Services\\UserService.cs",
-              "ViewState": "AQIAABEAAAAAAAAAAAAmwFcAAABLAAAA",
+              "DocumentIndex": 4,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.CrossCutting\\IoC\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "AgroFile.CrossCutting\\IoC\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.CrossCutting\\IoC\\DependencyInjection.cs",
+              "RelativeToolTip": "AgroFile.CrossCutting\\IoC\\DependencyInjection.cs",
+              "ViewState": "AQIAACsAAAAAAAAAAADgvzwAAABMAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T22:31:28.515Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "IUserValidator.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.Application\\Interfaces\\Validators\\IUserValidator.cs",
-              "RelativeDocumentMoniker": "AgroFile.Application\\Interfaces\\Validators\\IUserValidator.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.Application\\Interfaces\\Validators\\IUserValidator.cs",
-              "RelativeToolTip": "AgroFile.Application\\Interfaces\\Validators\\IUserValidator.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAgAAAAPAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-20T22:27:49.322Z",
+              "WhenOpened": "2025-03-21T00:00:02.513Z",
               "EditorCaption": ""
             }
           ]

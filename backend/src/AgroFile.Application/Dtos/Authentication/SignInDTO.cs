@@ -2,7 +2,7 @@
 
 namespace AgroFile.Application.Dtos.Authentication; 
 
-public class LoginDTO
+public class SignInDTO
 {
     [EmailAddress(ErrorMessage = "O endereço de e-mail não é válido!")]
     [Required(ErrorMessage = "O campo 'e-mail' é obrigatório")]

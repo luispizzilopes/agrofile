@@ -7,10 +7,20 @@ namespace AgroFile.Infrastructure.Repositories;
 public class AuthenticationRepository : IAuthenticationRepository
 {
     private readonly SignInManager<User> _signInManager;
+    private readonly UserManager<User> _userManager;
 
-    public AuthenticationRepository(SignInManager<User> signInManager)
+    public AuthenticationRepository(SignInManager<User> signInManager, UserManager<User> userManager)
     {
         _signInManager = signInManager;
+        _userManager = userManager;
+    }
+
+    public async Task<bool> EmailConfirmed(string email)
+    {
+        User? user = await _userManager.FindByEmailAsync(email);
+        if (user is null) return false; 
+
+        return await _userManager.IsEmailConfirmedAsync(user);
     }
 
     public async Task<bool> PasswordSignIn(string email, string password)
@@ -20,4 +30,6 @@ public class AuthenticationRepository : IAuthenticationRepository
 
         return result.Succeeded;
     }
+
+
 }

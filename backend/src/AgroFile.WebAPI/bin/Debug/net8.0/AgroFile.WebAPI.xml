@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>AgroFile.WebAPI</name>
+    </assembly>
+    <members>
+        <member name="T:AgroFile.WebAPI.Controllers.UserController">
+            <summary>
+            Controller responsible for user operations.
+            </summary>
+        </member>
+        <member name="M:AgroFile.WebAPI.Controllers.UserController.#ctor(AgroFile.Application.Interfaces.IUserService)">
+            <summary>
+            Constructor of the UserController class.
+            </summary>
+            <param name="userService">User service.</param>
+        </member>
+        <member name="M:AgroFile.WebAPI.Controllers.UserController.GetUsers(AgroFile.Domain.Common.PaginationParams)">
+            <summary>
+            Retrieves a paginated list of users.
+            </summary>
+            <param name="parameters">Pagination parameters.</param>
+            <returns>Paginated list of users.</returns>
+        </member>
+        <member name="M:AgroFile.WebAPI.Controllers.UserController.GetUser(System.String)">
+            <summary>
+            Retrieves a user by their ID.
+            </summary>
+            <param name="id">User ID.</param>
+            <returns>Found user.</returns>
+        </member>
+        <member name="M:AgroFile.WebAPI.Controllers.UserController.CreateUser(AgroFile.Application.Dtos.User.UserDTO)">
+            <summary>
+            Creates a new user.
+            </summary>
+            <param name="user">User data to create.</param>
+            <returns>Operation result.</returns>
+        </member>
+        <member name="M:AgroFile.WebAPI.Controllers.UserController.UpdateUser(AgroFile.Application.Dtos.User.UserDTO)">
+            <summary>
+            Updates an existing user.
+            </summary>
+            <param name="user">User data to update.</param>
+            <returns>Operation result.</returns>
+        </member>
+        <member name="M:AgroFile.WebAPI.Controllers.UserController.DeleteUser(System.String)">
+            <summary>
+            Deletes a user by their ID.
+            </summary>
+            <param name="id">ID of the user to delete.</param>
+            <returns>Operation result.</returns>
+        </member>
+    </members>
+</doc>

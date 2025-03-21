@@ -58,6 +58,7 @@ public static class DependencyInjection
     public static IServiceCollection AddValidators(this IServiceCollection services)
     {
         services.AddScoped<IUserValidator, UserValidator>();
+        services.AddScoped<IAuthenticationValidator, AuthenticationValidator>();
 
         return services; 
     }

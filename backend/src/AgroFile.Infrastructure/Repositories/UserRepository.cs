@@ -58,8 +58,12 @@ public class UserRepository : IUserRepository
 
     public async Task<bool> UpdateUser(User user)
     {
-        var result = await _userManager.UpdateAsync(user);
-        return result.Succeeded; 
+        var existingUser = await _userManager.FindByIdAsync(user.Id);
+
+        _context.Users.Entry(existingUser!).CurrentValues.SetValues(user);
+
+        var result = await _userManager.UpdateAsync(existingUser!);
+        return result.Succeeded;
     }
 
     public async Task<bool> DeleteUser(string id)

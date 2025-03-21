@@ -1,8 +1,9 @@
 ﻿using AgroFile.Application.Dtos.Authentication;
+using AgroFile.Domain.Common;
 
 namespace AgroFile.Application.Interfaces;
 
 public interface IAuthenticationService
 {
-    Task<UserSessionDTO> Login(LoginDTO informationForAuthentication); 
+    Task<ResultWithValue<UserSessionDTO>> SignIn(SignInDTO informationForAuthentication); 
 }
