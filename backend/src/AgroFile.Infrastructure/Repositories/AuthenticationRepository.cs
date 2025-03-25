@@ -25,10 +25,10 @@ public class AuthenticationRepository : IAuthenticationRepository
 
     public async Task<bool> PasswordSignIn(string email, string password)
     {
-        var result = await _signInManager
-            .PasswordSignInAsync(email, password, isPersistent: false, lockoutOnFailure: false);
+        User? user = await _userManager.FindByEmailAsync(email); 
+        if (user is null) return false;
 
-        return result.Succeeded;
+        return await _userManager.CheckPasswordAsync(user, password);
     }
 
 

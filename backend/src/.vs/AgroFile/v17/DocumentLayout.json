@@ -1,12 +1,122 @@
 {
   "Version": 1,
   "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\",
-  "Documents": [],
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{7E54197B-39A9-4DBE-8B7A-4D2C0E330C99}|AgroFile.WebAPI\\AgroFile.WebAPI.csproj|c:\\users\\pc\\desktop\\agrofile\\backend\\src\\agrofile.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{7E54197B-39A9-4DBE-8B7A-4D2C0E330C99}|AgroFile.WebAPI\\AgroFile.WebAPI.csproj|solutionrelative:agrofile.webapi\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C55397EB-D0A7-4D48-BF68-BD67F1F08329}|AgroFile.Infrastructure\\AgroFile.Infrastructure.csproj|c:\\users\\pc\\desktop\\agrofile\\backend\\src\\agrofile.infrastructure\\repositories\\authenticationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C55397EB-D0A7-4D48-BF68-BD67F1F08329}|AgroFile.Infrastructure\\AgroFile.Infrastructure.csproj|solutionrelative:agrofile.infrastructure\\repositories\\authenticationrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C55397EB-D0A7-4D48-BF68-BD67F1F08329}|AgroFile.Infrastructure\\AgroFile.Infrastructure.csproj|c:\\users\\pc\\desktop\\agrofile\\backend\\src\\agrofile.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C55397EB-D0A7-4D48-BF68-BD67F1F08329}|AgroFile.Infrastructure\\AgroFile.Infrastructure.csproj|solutionrelative:agrofile.infrastructure\\repositories\\userrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7FFAC20-A623-4B33-BEF2-C36FE511BD76}|AgroFile.Application\\AgroFile.Application.csproj|c:\\users\\pc\\desktop\\agrofile\\backend\\src\\agrofile.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7FFAC20-A623-4B33-BEF2-C36FE511BD76}|AgroFile.Application\\AgroFile.Application.csproj|solutionrelative:agrofile.application\\services\\userservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D39EC98B-3CEF-431F-88BE-DC1647337D4F}|AgroFile.CrossCutting\\AgroFile.CrossCutting.csproj|c:\\users\\pc\\desktop\\agrofile\\backend\\src\\agrofile.crosscutting\\ioc\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D39EC98B-3CEF-431F-88BE-DC1647337D4F}|AgroFile.CrossCutting\\AgroFile.CrossCutting.csproj|solutionrelative:agrofile.crosscutting\\ioc\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C7FFAC20-A623-4B33-BEF2-C36FE511BD76}|AgroFile.Application\\AgroFile.Application.csproj|c:\\users\\pc\\desktop\\agrofile\\backend\\src\\agrofile.application\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{C7FFAC20-A623-4B33-BEF2-C36FE511BD76}|AgroFile.Application\\AgroFile.Application.csproj|solutionrelative:agrofile.application\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
   "DocumentGroupContainers": [
     {
       "Orientation": 0,
       "VerticalTabListWidth": 256,
-      "DocumentGroups": []
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.WebAPI\\appsettings.json",
+              "RelativeDocumentMoniker": "AgroFile.WebAPI\\appsettings.json",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.WebAPI\\appsettings.json",
+              "RelativeToolTip": "AgroFile.WebAPI\\appsettings.json",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-03-25T01:17:45.934Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "UserService.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.Application\\Services\\UserService.cs",
+              "RelativeDocumentMoniker": "AgroFile.Application\\Services\\UserService.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.Application\\Services\\UserService.cs",
+              "RelativeToolTip": "AgroFile.Application\\Services\\UserService.cs",
+              "ViewState": "AQIAACcAAAAAAAAAAAAowDUAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T01:11:39.435Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "AuthenticationRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.Infrastructure\\Repositories\\AuthenticationRepository.cs",
+              "RelativeDocumentMoniker": "AgroFile.Infrastructure\\Repositories\\AuthenticationRepository.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.Infrastructure\\Repositories\\AuthenticationRepository.cs",
+              "RelativeToolTip": "AgroFile.Infrastructure\\Repositories\\AuthenticationRepository.cs",
+              "ViewState": "AQIAAAMAAAAAAAAAAAAAAB4AAAA8AAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T01:10:48.36Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UserRepository.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeDocumentMoniker": "AgroFile.Infrastructure\\Repositories\\UserRepository.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.Infrastructure\\Repositories\\UserRepository.cs",
+              "RelativeToolTip": "AgroFile.Infrastructure\\Repositories\\UserRepository.cs",
+              "ViewState": "AQIAACMAAAAAAAAAAAAwwDcAAAAIAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T01:10:45.402Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "DependencyInjection.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.CrossCutting\\IoC\\DependencyInjection.cs",
+              "RelativeDocumentMoniker": "AgroFile.CrossCutting\\IoC\\DependencyInjection.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.CrossCutting\\IoC\\DependencyInjection.cs",
+              "RelativeToolTip": "AgroFile.CrossCutting\\IoC\\DependencyInjection.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAAAAAB0AAAAyAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T01:09:04.816Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "AuthenticationService.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.Application\\Services\\AuthenticationService.cs",
+              "RelativeDocumentMoniker": "AgroFile.Application\\Services\\AuthenticationService.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.Application\\Services\\AuthenticationService.cs",
+              "RelativeToolTip": "AgroFile.Application\\Services\\AuthenticationService.cs",
+              "ViewState": "AQIAABYAAAAAAAAAAAAgwAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-03-25T01:08:33.279Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
     }
   ]
 }

@@ -27,12 +27,9 @@ public static class DependencyInjection
 
     public static IServiceCollection AddIdentityUser(this IServiceCollection services)
     {
-        services.AddIdentity<User, IdentityRole>(options =>
-        {
-            options.SignIn.RequireConfirmedEmail = true;
-        })
-        .AddEntityFrameworkStores<AppDbContext>()
-        .AddDefaultTokenProviders();
+        services.AddIdentity<User, IdentityRole>()
+                .AddEntityFrameworkStores<AppDbContext>()
+                .AddDefaultTokenProviders();
 
         return services; 
     }
