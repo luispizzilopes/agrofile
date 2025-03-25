@@ -51,6 +51,8 @@ public static class DependencyInjection
         services.AddScoped<IPasswordService, PasswordService>();
         services.AddScoped<ITokenJwtService, TokenJwtService>();
         services.AddScoped<IUserService, UserService>();
+        services.AddScoped<IEmailService, EmailService>();
+        services.AddScoped<ITemplateService, TemplateService>();
 
         return services; 
     }

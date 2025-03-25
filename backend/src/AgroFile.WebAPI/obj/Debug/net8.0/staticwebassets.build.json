@@ -1,11 +1,39 @@
 {
   "Version": 1,
-  "Hash": "cCkZU/DWebbNMrvm/h5UWHqYQxtm/Xomgg3SwMjKsoQ=",
+  "Hash": "HfCZJLsmJ8CvVnHgqI0MxnLu9SeiV7Dm18g4kz/EmG4=",
   "Source": "AgroFile.WebAPI",
   "BasePath": "_content/AgroFile.WebAPI",
   "Mode": "Default",
   "ManifestType": "Build",
   "ReferencedProjectsConfiguration": [],
-  "DiscoveryPatterns": [],
-  "Assets": []
+  "DiscoveryPatterns": [
+    {
+      "Name": "AgroFile.WebAPI\\wwwroot",
+      "Source": "AgroFile.WebAPI",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.WebAPI\\wwwroot\\",
+      "BasePath": "_content/AgroFile.WebAPI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.WebAPI\\wwwroot\\Templates\\TemplateEmailSenhaUsuario.html",
+      "SourceId": "AgroFile.WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.WebAPI\\wwwroot\\",
+      "BasePath": "_content/AgroFile.WebAPI",
+      "RelativePath": "Templates/TemplateEmailSenhaUsuario.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Templates\\TemplateEmailSenhaUsuario.html"
+    }
+  ]
 }

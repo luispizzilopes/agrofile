@@ -1,4 +1,6 @@
-﻿using AgroFile.Application.Dtos.User;
+﻿using AgroFile.Application.Consts;
+using AgroFile.Application.Dtos.Email;
+using AgroFile.Application.Dtos.User;
 using AgroFile.Application.Exceptions;
 using AgroFile.Application.Interfaces;
 using AgroFile.Application.Interfaces.Validators;
@@ -7,6 +9,7 @@ using AgroFile.Domain.Common;
 using AgroFile.Domain.Entities;
 using AgroFile.Domain.Interfaces;
 using Mapster;
+using Microsoft.Extensions.Configuration;
 
 namespace AgroFile.Application.Services;
 
@@ -14,13 +17,19 @@ public class UserService : IUserService
 {
     private readonly IUserRepository _userRepository;
     private readonly IPasswordService _passwordService;
+    private readonly IEmailService _emailService;
+    private readonly ITemplateService _templateService; 
     private readonly IUserValidator _userValidator;
+    private readonly IConfiguration _configuration;
 
-    public UserService(IUserRepository userRepository, IPasswordService passwordService, IUserValidator userValidator)
+    public UserService(IUserRepository userRepository, IPasswordService passwordService, IEmailService emailService, ITemplateService templateService, IUserValidator userValidator, IConfiguration configuration)
     {
         _userRepository = userRepository;
         _passwordService = passwordService;
+        _emailService = emailService;
+        _templateService = templateService;
         _userValidator = userValidator;
+        _configuration = configuration;
     }
 
     public async Task<UserSummaryDTO> GetUser(string id)
@@ -41,9 +50,12 @@ public class UserService : IUserService
         if (!validationResult.IsSuccess) return validationResult; 
 
         User userEntity = MapToUserEntityOnCreate(user); 
-        bool crateResult = await _userRepository.CreateUser(userEntity, _passwordService.GenerateRandomPassword());
+        string randomPassword = _passwordService.GenerateRandomPassword();
+        bool crateResult = await _userRepository.CreateUser(userEntity, randomPassword);
 
         if (!crateResult) Result.Failure(MessagesUserAgroFileApplication.CreateFailure);
+
+        await SendMailWithPasswordToUser(user, randomPassword); 
 
         return Result.Success(MessagesUserAgroFileApplication.CreateSuccess); 
     }
@@ -56,6 +68,27 @@ public class UserService : IUserService
         userEntity.SecurityStamp = Guid.NewGuid().ToString();
 
         return userEntity; 
+    }
+
+    private async Task SendMailWithPasswordToUser(UserDTO user, string randomPassword)
+    {
+        SendMailDTO sendMail = new SendMailDTO
+        {
+            SendTo = user.Email,
+            Content = GetTemplatePasswordUser(user, randomPassword), 
+            IsBodyHtml = true
+        };
+
+        await _emailService.SendMail(sendMail); 
+    }
+
+    private string GetTemplatePasswordUser(UserDTO user, string randomPassword)
+    {
+        string templateString = _templateService.GetTemplate(Templates.TemplatePasswordUser);
+
+        return templateString.Replace("{emailusuario}", user.Email)
+                             .Replace("{senha}", randomPassword)
+                             .Replace("{link}", _configuration.GetSection("Frontend")["Url"]); 
     }
 
     public async Task<Result> UpdateUser(UserDTO user)

@@ -27,7 +27,7 @@ export default function RecuperarSenha() {
                         <Mail /> Enviar Link
                     </button>
                     <div className="text-end">
-                        <a onClick={()=> router.push("/login")} className="link link-primary">Voltar para login</a>
+                        <a onClick={()=> router.push("/login")} className="link link-primary">Voltar para Login</a>
                     </div>
                 </form>
             </div>

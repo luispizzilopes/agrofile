@@ -24,4 +24,8 @@
     <ProjectReference Include="..\AgroFile.CrossCutting\AgroFile.CrossCutting.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <None Include="wwwroot\Templates\TemplateEmailSenhaUsuario.html" />
+  </ItemGroup>
+
 </Project>
