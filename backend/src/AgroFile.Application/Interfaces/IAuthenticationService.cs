@@ -5,5 +5,7 @@ namespace AgroFile.Application.Interfaces;
 
 public interface IAuthenticationService
 {
-    Task<ResultWithValue<UserSessionDTO>> SignIn(SignInDTO informationForAuthentication); 
+    Task<ResultWithValue<UserSessionDTO>> SignIn(SignInDTO informationForAuthentication);
+    Task<Result> PasswordReset(PasswordResetDTO inforationForResetPassword);
+    Task<Result> ConfirmPasswordReset(ConfirmPasswordResetDTO confirmPasswordReset); 
 }

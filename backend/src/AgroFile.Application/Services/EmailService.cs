@@ -39,7 +39,7 @@ public class EmailService : IEmailService
 
         message.From = new MailAddress(configurationSection["Email"]!);
         message.To.Add(sendMail.SendTo);
-        message.Subject = "Sua nova senha";
+        message.Subject = "eXtend File";
         message.Body = sendMail.Content;
         message.IsBodyHtml = sendMail.IsBodyHtml;
 

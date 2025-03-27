@@ -22,4 +22,18 @@ public class AuthenticationController : ControllerBase
         ResultWithValue<UserSessionDTO> result = await _authenticationService.SignIn(informationForAuthentication);
         return result.IsSuccess ? Ok(result) : BadRequest(result);
     }
+
+    [HttpPost("reset-password")]
+    public async Task<ActionResult> ResetPassword([FromBody] PasswordResetDTO informationForResetPassword)
+    {
+        Result result = await _authenticationService.PasswordReset(informationForResetPassword);
+        return result.IsSuccess ? Ok(result) : BadRequest(result); 
+    }
+
+    [HttpGet("confirm-reset-password")]
+    public async Task<ActionResult> ConfirmResetPassword([FromQuery] string token, [FromQuery] string email)
+    {
+        Result result = await _authenticationService.ConfirmPasswordReset(new ConfirmPasswordResetDTO(token, email));
+        return result.IsSuccess ? Ok(result) : BadRequest(result);
+    }
 }

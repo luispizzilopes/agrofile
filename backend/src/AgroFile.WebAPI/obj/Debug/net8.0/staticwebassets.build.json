@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "HfCZJLsmJ8CvVnHgqI0MxnLu9SeiV7Dm18g4kz/EmG4=",
+  "Hash": "tNqMLtJAnppsDuk9WnwZhvI5zt+CNc/IYhQQLcTkhpA=",
   "Source": "AgroFile.WebAPI",
   "BasePath": "_content/AgroFile.WebAPI",
   "Mode": "Default",
@@ -34,6 +34,25 @@
       "CopyToOutputDirectory": "Never",
       "CopyToPublishDirectory": "PreserveNewest",
       "OriginalItemSpec": "wwwroot\\Templates\\TemplateEmailSenhaUsuario.html"
+    },
+    {
+      "Identity": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.WebAPI\\wwwroot\\Templates\\TemplateRedefinicaoSenhaUsuario.html",
+      "SourceId": "AgroFile.WebAPI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.WebAPI\\wwwroot\\",
+      "BasePath": "_content/AgroFile.WebAPI",
+      "RelativePath": "Templates/TemplateRedefinicaoSenhaUsuario.html",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "PreferTarget",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\Templates\\TemplateRedefinicaoSenhaUsuario.html"
     }
   ]
 }

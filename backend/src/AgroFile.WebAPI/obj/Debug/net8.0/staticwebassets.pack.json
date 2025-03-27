@@ -5,6 +5,10 @@
       "PackagePath": "staticwebassets\\Templates\\TemplateEmailSenhaUsuario.html"
     },
     {
+      "Id": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.WebAPI\\wwwroot\\Templates\\TemplateRedefinicaoSenhaUsuario.html",
+      "PackagePath": "staticwebassets\\Templates\\TemplateRedefinicaoSenhaUsuario.html"
+    },
+    {
       "Id": "obj\\Debug\\net8.0\\staticwebassets\\msbuild.AgroFile.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props",
       "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
     },
