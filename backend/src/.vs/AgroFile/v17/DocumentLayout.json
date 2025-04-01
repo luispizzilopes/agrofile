@@ -3,6 +3,14 @@
   "WorkspaceRootPath": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{7E54197B-39A9-4DBE-8B7A-4D2C0E330C99}|AgroFile.WebAPI\\AgroFile.WebAPI.csproj|c:\\users\\pc\\desktop\\agrofile\\backend\\src\\agrofile.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{7E54197B-39A9-4DBE-8B7A-4D2C0E330C99}|AgroFile.WebAPI\\AgroFile.WebAPI.csproj|solutionrelative:agrofile.webapi\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D39EC98B-3CEF-431F-88BE-DC1647337D4F}|AgroFile.CrossCutting\\AgroFile.CrossCutting.csproj|c:\\users\\pc\\desktop\\agrofile\\backend\\src\\agrofile.crosscutting\\ioc\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{D39EC98B-3CEF-431F-88BE-DC1647337D4F}|AgroFile.CrossCutting\\AgroFile.CrossCutting.csproj|solutionrelative:agrofile.crosscutting\\ioc\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{C7FFAC20-A623-4B33-BEF2-C36FE511BD76}|AgroFile.Application\\AgroFile.Application.csproj|c:\\users\\pc\\desktop\\agrofile\\backend\\src\\agrofile.application\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7FFAC20-A623-4B33-BEF2-C36FE511BD76}|AgroFile.Application\\AgroFile.Application.csproj|solutionrelative:agrofile.application\\services\\authenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
@@ -19,16 +27,8 @@
       "RelativeMoniker": "D:0:0:{7E54197B-39A9-4DBE-8B7A-4D2C0E330C99}|AgroFile.WebAPI\\AgroFile.WebAPI.csproj|solutionrelative:agrofile.webapi\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C7FFAC20-A623-4B33-BEF2-C36FE511BD76}|AgroFile.Application\\AgroFile.Application.csproj|c:\\users\\pc\\desktop\\agrofile\\backend\\src\\agrofile.application\\extensions\\httpcontextextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{C7FFAC20-A623-4B33-BEF2-C36FE511BD76}|AgroFile.Application\\AgroFile.Application.csproj|solutionrelative:agrofile.application\\extensions\\httpcontextextensions.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{C7FFAC20-A623-4B33-BEF2-C36FE511BD76}|AgroFile.Application\\AgroFile.Application.csproj|c:\\users\\pc\\desktop\\agrofile\\backend\\src\\agrofile.application\\interfaces\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{C7FFAC20-A623-4B33-BEF2-C36FE511BD76}|AgroFile.Application\\AgroFile.Application.csproj|solutionrelative:agrofile.application\\interfaces\\iauthenticationservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{D39EC98B-3CEF-431F-88BE-DC1647337D4F}|AgroFile.CrossCutting\\AgroFile.CrossCutting.csproj|c:\\users\\pc\\desktop\\agrofile\\backend\\src\\agrofile.crosscutting\\ioc\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{D39EC98B-3CEF-431F-88BE-DC1647337D4F}|AgroFile.CrossCutting\\AgroFile.CrossCutting.csproj|solutionrelative:agrofile.crosscutting\\ioc\\dependencyinjection.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -38,11 +38,24 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 5,
+          "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 0,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.WebAPI\\Program.cs",
+              "RelativeDocumentMoniker": "AgroFile.WebAPI\\Program.cs",
+              "ToolTip": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.WebAPI\\Program.cs",
+              "RelativeToolTip": "AgroFile.WebAPI\\Program.cs",
+              "ViewState": "AQIAAAkAAAAAAAAAAADwvysAAAAUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-01T01:21:28.567Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
               "Title": "EmailService.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.Application\\Services\\EmailService.cs",
               "RelativeDocumentMoniker": "AgroFile.Application\\Services\\EmailService.cs",
@@ -50,12 +63,11 @@
               "RelativeToolTip": "AgroFile.Application\\Services\\EmailService.cs",
               "ViewState": "AQIAAA8AAAAAAAAAAAAAACkAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T01:05:57.074Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-27T01:05:57.074Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "IEmailService.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.Application\\Interfaces\\IEmailService.cs",
               "RelativeDocumentMoniker": "AgroFile.Application\\Interfaces\\IEmailService.cs",
@@ -63,12 +75,11 @@
               "RelativeToolTip": "AgroFile.Application\\Interfaces\\IEmailService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T01:05:53.448Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-27T01:05:53.448Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 5,
               "Title": "AuthenticationController.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.WebAPI\\Controllers\\AuthenticationController.cs",
               "RelativeDocumentMoniker": "AgroFile.WebAPI\\Controllers\\AuthenticationController.cs",
@@ -76,51 +87,37 @@
               "RelativeToolTip": "AgroFile.WebAPI\\Controllers\\AuthenticationController.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAACMAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T23:18:54.237Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-26T23:18:54.237Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "HttpContextExtensions.cs",
-              "DocumentMoniker": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.Application\\Extensions\\HttpContextExtensions.cs",
-              "RelativeDocumentMoniker": "AgroFile.Application\\Extensions\\HttpContextExtensions.cs",
-              "ToolTip": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.Application\\Extensions\\HttpContextExtensions.cs",
-              "RelativeToolTip": "AgroFile.Application\\Extensions\\HttpContextExtensions.cs",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAwAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T22:13:23.799Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "DependencyInjection.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.CrossCutting\\IoC\\DependencyInjection.cs",
               "RelativeDocumentMoniker": "AgroFile.CrossCutting\\IoC\\DependencyInjection.cs",
               "ToolTip": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.CrossCutting\\IoC\\DependencyInjection.cs",
               "RelativeToolTip": "AgroFile.CrossCutting\\IoC\\DependencyInjection.cs",
-              "ViewState": "AQIAACkAAAAAAAAAAAAwwAAAAAAAAAAA",
+              "ViewState": "AQIAAAYAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-26T21:34:57.603Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 2,
               "Title": "AuthenticationService.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.Application\\Services\\AuthenticationService.cs",
               "RelativeDocumentMoniker": "AgroFile.Application\\Services\\AuthenticationService.cs",
               "ToolTip": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.Application\\Services\\AuthenticationService.cs",
               "RelativeToolTip": "AgroFile.Application\\Services\\AuthenticationService.cs",
-              "ViewState": "AQIAAHwAAAAAAAAAAAAgwJsAAAAvAAAA",
+              "ViewState": "AQIAAGAAAAAAAAAAAAAAAJMAAAAgAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-03-26T21:18:03.47Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 6,
               "Title": "IAuthenticationService.cs",
               "DocumentMoniker": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.Application\\Interfaces\\IAuthenticationService.cs",
               "RelativeDocumentMoniker": "AgroFile.Application\\Interfaces\\IAuthenticationService.cs",
@@ -128,8 +125,7 @@
               "RelativeToolTip": "AgroFile.Application\\Interfaces\\IAuthenticationService.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAqwAkAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T21:17:25.965Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-26T21:17:25.965Z"
             }
           ]
         }

@@ -1,7 +1,14 @@
-import Image from "next/image";
+'use client';
 
-export default function Home() {
-  return (
-  <></>
-  );
+import { useEffect } from 'react';
+import { useRouter } from 'next/navigation';
+
+export default function Page() {
+  const router = useRouter();
+
+  useEffect(() => {
+    router.push('/login');
+  }, [router]);
+
+  return <></>;
 }

@@ -20,6 +20,8 @@ builder.Services.AddValidators();
 builder.Services.AddIdentityUser();
 builder.Services.AddDbContext(builder.Configuration);
 
+builder.Services.AddCors(); 
+
 var app = builder.Build();
 
 // Configure the HTTP request pipeline.
@@ -34,6 +36,13 @@ if (app.Environment.IsDevelopment())
         c.DefaultModelsExpandDepth(-1); // Disable swagger schemas at bottom
     });
 }
+
+app.UseCors(c => 
+{
+    c.AllowAnyHeader(); 
+    c.AllowAnyMethod(); 
+    c.AllowAnyOrigin(); 
+}); 
 
 app.UseHttpsRedirection();
 

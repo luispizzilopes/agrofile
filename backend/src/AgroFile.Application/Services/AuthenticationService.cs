@@ -145,7 +145,7 @@ public class AuthenticationService : IAuthenticationService
     {
         SendMailDTO sendMail = new SendMailDTO
         {
-            SendTo = user.Email,
+            SendTo = user.Email!,
             Content = GetTemplatePasswordUser(user, randomPassword),
             IsBodyHtml = true
         };
