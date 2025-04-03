@@ -1,5 +1,8 @@
-export default interface ISignInInterface{
+import type { AppRouterInstance } from "next/dist/shared/lib/app-router-context.shared-runtime";
+
+export default interface ISignInInterface {
     email: string;
     password: string;
-    setLoading: (loading : boolean) => void, 
+    router: AppRouterInstance;
+    setLoading: (loading: boolean) => void;
 }

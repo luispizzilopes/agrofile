@@ -1,21 +1,25 @@
-"use client";
-
+import HttpStatusCode from "@/data/HttpStatusCode";
 import ISignInInterface from "@/interfaces/ISignInInterface";
 import api from "@/services/api";
+import createSession from "@/utils/createSession";
+import handleError from "@/utils/handleError";
+import { toast } from "react-toastify";
 
 export default async function signIn(params: ISignInInterface): Promise<void> {
-    const { setLoading } = params;
+    const { email, password, setLoading, router } = params;
 
     setLoading(true);
 
     try {
-        const response = await api.post("Authentication/sign-in", params);
+        const response = await api.post("Authentication/sign-in", { email, password });
 
-        if (response.status === 200) {
-            console.log("Logado");
+        if (response.status === HttpStatusCode.OK) {
+            createSession(response.data?.value?.tokenJwtInformation?.token);
+            router.push("/home");
         }
     } catch (error) {
-        console.log("Erro ao autenticar");
+        let message = handleError(error);
+        toast.error(message);
     }
 
     setLoading(false);

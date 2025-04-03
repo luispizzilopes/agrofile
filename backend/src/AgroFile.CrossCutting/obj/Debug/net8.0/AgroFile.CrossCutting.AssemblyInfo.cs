@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AgroFile.CrossCutting")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+9e2165dead3d49da74ab7acd84f12bbcf1f81249")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+effdfcb7927280320f6311ec28a78bfdf0eaefe1")]
 [assembly: System.Reflection.AssemblyProductAttribute("AgroFile.CrossCutting")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AgroFile.CrossCutting")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

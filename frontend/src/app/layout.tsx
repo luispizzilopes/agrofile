@@ -1,8 +1,8 @@
+import { LoadingProvider } from "@/contexts/LoadingContext";
+import ClientSideToastContainer from "@/components/ClientSideToastContainer";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
-import { LoadingProvider } from "@/contexts/LoadingContext";
-import Loading from "@/components/Loading";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -24,11 +24,13 @@ export default function RootLayout({
 }: Readonly<{
   children: React.ReactNode;
 }>) {
+
   return (
-    <html lang="en" data-theme="dim">
+    <html lang="pt-br" data-theme="dim">
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
+        <ClientSideToastContainer/>
         <LoadingProvider>
           {children}
         </LoadingProvider>

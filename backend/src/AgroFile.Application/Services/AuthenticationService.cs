@@ -45,10 +45,7 @@ public class AuthenticationService : IAuthenticationService
 
     public async Task<ResultWithValue<UserSessionDTO>> SignIn(SignInDTO informationForAuthentication)
     {
-        Result validationResult = await _authenticationValidator.ValidateAuthenticationUser(informationForAuthentication);
-        if (!validationResult.IsSuccess) return ResultWithValue<UserSessionDTO>.Failure(validationResult.ErrorMessage ?? string.Empty);
-
-        bool informationProvidedIsValidForAuthentication =  await _authenticationRepository.PasswordSignIn(
+        bool informationProvidedIsValidForAuthentication = await _authenticationRepository.PasswordSignIn(
             informationForAuthentication.Email, 
             informationForAuthentication.Password
         );
@@ -58,6 +55,9 @@ public class AuthenticationService : IAuthenticationService
             await RegisterSignInFailure(informationForAuthentication.Email);
             return ResultWithValue<UserSessionDTO>.Failure(MessagesAuthenticationAgroFileApplication.AuthenticationFailure);
         }
+
+        Result validationResult = await _authenticationValidator.ValidateAuthenticationUser(informationForAuthentication);
+        if (!validationResult.IsSuccess) return ResultWithValue<UserSessionDTO>.Failure(validationResult.ErrorMessage ?? string.Empty);
 
         return await CreateUserSession(informationForAuthentication.Email);
     }

@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "/wUYGCOG0OFRM6J8FyUB4eprFEO1SRGiShOSAjPNf2Tiq6dNrCxIFGYnTRrdKz7IemJQ0IGPs+x1yzgzyRFomQ==",
+  "dgSpecHash": "m2ythzpkSxwLhCABP4xlYSWtF8DDEjv3I8sDq5uoHcF/pV5evSU6qR0pY03KugOeVw8QigTUlS9i1rNBVK26gQ==",
   "success": true,
   "projectFilePath": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.WebAPI\\AgroFile.WebAPI.csproj",
   "expectedPackageFiles": [
@@ -65,6 +65,7 @@
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.openapi\\1.2.3\\microsoft.openapi.1.2.3.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\microsoft.win32.registry\\4.5.0\\microsoft.win32.registry.4.5.0.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\mono.texttemplating\\2.2.1\\mono.texttemplating.2.2.1.nupkg.sha512",
+    "C:\\Users\\PC\\.nuget\\packages\\newtonsoft.json\\13.0.3\\newtonsoft.json.13.0.3.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\npgsql\\8.0.6\\npgsql.8.0.6.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\npgsql.entityframeworkcore.postgresql\\8.0.11\\npgsql.entityframeworkcore.postgresql.8.0.11.nupkg.sha512",
     "C:\\Users\\PC\\.nuget\\packages\\swashbuckle.aspnetcore\\6.4.0\\swashbuckle.aspnetcore.6.4.0.nupkg.sha512",

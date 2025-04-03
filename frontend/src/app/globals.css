@@ -73,6 +73,25 @@
   --noise: 0;
 }
 
+.Toastify__toast--success {
+  color: var(--color-success-content) !important;
+}
+
+.Toastify__toast--error {
+  color: var(--color-error-content) !important;
+}
+
+.Toastify__toast--warning {
+  color: var(--color-warning-content) !important;
+}
+
+.Toastify__toast--info {
+  color: var(--color-info-content) !important;
+}
+
+.Toastify__close-button{
+  color: var(--color-info-content) !important;
+}
 
 body{
   font-family: "Poppins", sans-serif;

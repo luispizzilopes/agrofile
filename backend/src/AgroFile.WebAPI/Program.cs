@@ -1,4 +1,5 @@
 using AgroFile.CrossCutting.IoC;
+using AgroFile.WebAPI.Middlewares;
 using System.Reflection;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -42,9 +43,13 @@ app.UseCors(c =>
     c.AllowAnyHeader(); 
     c.AllowAnyMethod(); 
     c.AllowAnyOrigin(); 
-}); 
+});
+
+app.UseMiddleware(typeof(ErrorMiddleware)); 
 
 app.UseHttpsRedirection();
+
+app.UseAuthentication(); 
 
 app.UseAuthorization();
 

@@ -1,11 +1,11 @@
 "use client";
 
+import signIn from './features/signIn';
 import Loading from '@/components/Loading';
 import { useLoading } from '@/contexts/LoadingContext';
 import { LogIn } from 'lucide-react';
 import { useRouter } from 'next/navigation';
 import { useState } from 'react';
-import signIn from './features/signIn';
 
 export default function Login() {
     const [email, setEmail] = useState<string>("");
@@ -46,9 +46,12 @@ export default function Login() {
                             required
                         />
                     </div>
-                    <button type="submit" className="btn btn-primary w-full" onClick={async () => {
-                        await signIn({ email, password, setLoading });
-                    }}>
+                    <button type="submit" className="btn btn-primary w-full" onClick={async () => await signIn({
+                        email: email,
+                        password: password,
+                        router: router,
+                        setLoading: setLoading,
+                    })}>
                         <LogIn />Entrar
                     </button>
                     <div className="text-end">

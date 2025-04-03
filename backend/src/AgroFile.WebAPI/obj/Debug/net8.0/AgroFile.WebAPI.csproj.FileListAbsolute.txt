@@ -141,3 +141,4 @@ C:\Users\PC\Desktop\agrofile\backend\src\AgroFile.WebAPI\bin\Debug\net8.0\AgroFi
 C:\Users\PC\Desktop\agrofile\backend\src\AgroFile.WebAPI\obj\Debug\net8.0\AgroFile.WebAPI.xml
 C:\Users\PC\Desktop\agrofile\backend\src\AgroFile.WebAPI\bin\Debug\net8.0\AgroFile.WebAPI.staticwebassets.runtime.json
 C:\Users\PC\Desktop\agrofile\backend\src\AgroFile.WebAPI\bin\Debug\net8.0\FluentValidation.dll
+C:\Users\PC\Desktop\agrofile\backend\src\AgroFile.WebAPI\bin\Debug\net8.0\Newtonsoft.Json.dll

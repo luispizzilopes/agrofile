@@ -9,7 +9,6 @@ interface DefaultPageProps {
 export default function DefaultPage({ children }: DefaultPageProps) {
   const { loading } = useLoading();
 
-
   return (
     <div>
       <div>{children}</div>
