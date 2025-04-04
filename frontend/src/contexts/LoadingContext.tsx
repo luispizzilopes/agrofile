@@ -1,21 +1,13 @@
-"use client"; 
+"use client";
 
 import ILoadingContextInterface from '@/interfaces/ILoadingContextInterface';
 import { createContext, useState, useContext, ReactNode } from 'react';
 
-const LoadingContext = createContext<ILoadingContextInterface | undefined>(undefined);
-
-export const useLoading = (): ILoadingContextInterface => {
-  const context = useContext(LoadingContext);
-  if (!context) {
-    throw new Error('useLoading must be used within a LoadingProvider');
-  }
-  return context;
-};
-
 interface ILoadingProviderProps {
   children: ReactNode;
 }
+
+const LoadingContext = createContext<ILoadingContextInterface | undefined>(undefined);
 
 export const LoadingProvider = ({ children }: ILoadingProviderProps) => {
   const [loading, setLoading] = useState<boolean>(false);
@@ -25,4 +17,12 @@ export const LoadingProvider = ({ children }: ILoadingProviderProps) => {
       {children}
     </LoadingContext.Provider>
   );
+};
+
+export const useLoading = (): ILoadingContextInterface => {
+  const context = useContext(LoadingContext);
+  if (!context) {
+    throw new Error('useLoading must be used within a LoadingProvider');
+  }
+  return context;
 };

@@ -3,6 +3,7 @@ import ClientSideToastContainer from "@/components/ClientSideToastContainer";
 import type { Metadata } from "next";
 import { Geist, Geist_Mono } from "next/font/google";
 import "./globals.css";
+import { SidebarProvider } from "@/contexts/SidebarContext";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -30,9 +31,12 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <ClientSideToastContainer/>
+        <ClientSideToastContainer />
         <LoadingProvider>
-          {children}
+          <SidebarProvider>
+            {children}
+          </SidebarProvider>
+
         </LoadingProvider>
       </body>
     </html>
