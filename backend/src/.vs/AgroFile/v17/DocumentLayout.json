@@ -60,7 +60,7 @@
               "RelativeDocumentMoniker": "AgroFile.WebAPI\\appsettings.json",
               "ToolTip": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.WebAPI\\appsettings.json",
               "RelativeToolTip": "AgroFile.WebAPI\\appsettings.json",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAAAAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
               "WhenOpened": "2025-04-03T00:56:20.89Z",
               "EditorCaption": ""
@@ -75,8 +75,7 @@
               "RelativeToolTip": "AgroFile.WebAPI\\Middlewares\\ErrorMiddleware.cs",
               "ViewState": "AQIAAA4AAAAAAAAAAAAgwCwAAAABAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T23:00:55.895Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-02T23:00:55.895Z"
             },
             {
               "$type": "Document",
@@ -88,8 +87,7 @@
               "RelativeToolTip": "AgroFile.Application\\Validators\\AuthenticationValidator.cs",
               "ViewState": "AQIAAAYAAAAAAAAAAAAAABMAAAAvAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-02T22:57:44.077Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-02T22:57:44.077Z"
             },
             {
               "$type": "Document",
@@ -101,8 +99,7 @@
               "RelativeToolTip": "AgroFile.WebAPI\\Program.cs",
               "ViewState": "AQIAAAAAAAAAAAAAAAAAAC8AAAAsAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-04-01T01:21:28.567Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-04-01T01:21:28.567Z"
             },
             {
               "$type": "Document",
@@ -114,8 +111,7 @@
               "RelativeToolTip": "AgroFile.Application\\Services\\EmailService.cs",
               "ViewState": "AQIAABsAAAAAAAAAAAAowCkAAAAmAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-27T01:05:57.074Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-27T01:05:57.074Z"
             },
             {
               "$type": "Document",
@@ -139,8 +135,7 @@
               "RelativeToolTip": "AgroFile.WebAPI\\Controllers\\AuthenticationController.cs",
               "ViewState": "AQIAAAkAAAAAAAAAAAAAABUAAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T23:18:54.237Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-26T23:18:54.237Z"
             },
             {
               "$type": "Document",
@@ -164,8 +159,7 @@
               "RelativeToolTip": "AgroFile.Application\\Services\\AuthenticationService.cs",
               "ViewState": "AQIAACcAAAAAAAAAAAAswC8AAAAIAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-03-26T21:18:03.47Z",
-              "EditorCaption": ""
+              "WhenOpened": "2025-03-26T21:18:03.47Z"
             },
             {
               "$type": "Document",
