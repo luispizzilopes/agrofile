@@ -1,11 +1,12 @@
 "use client";
 
-import { Mail } from 'lucide-react';
-import { useRouter } from 'next/navigation';
+import { useRouter } from "next/navigation";
+import { SproutIcon } from "lucide-react";
 import { useLoading } from '@/contexts/LoadingContext';
-import Loading from '@/components/Loading';
+import { Button } from "primereact/button";
+import { InputText } from "primereact/inputtext";
 import { useState } from 'react';
-import resetPassword from './features/resetPassword';
+import { Card } from "primereact/card";
 
 export default function RecuperarSenha() {
     const [email, setEmail] = useState<string>("");
@@ -14,40 +15,46 @@ export default function RecuperarSenha() {
     const { loading, setLoading } = useLoading();
 
     return (
-        <div className="flex items-center justify-center min-h-screen bg-base-200">
-            <div className="card w-96 bg-base-100 shadow-xl p-6">
-                <h2 className="text-2xl font-bold text-center text-primary">Recuperar Senha</h2>
-                <p className="text-center text-sm text-gray-500 mt-2">
-                    Digite seu e-mail para receber um link de redefinição de senha.
-                </p>
-                <div className="mt-4 space-y-4">
-                    <div className="form-control">
-                        <label className="label">
-                            <span className="label-text mb-2">E-mail</span>
-                        </label>
-                        <input
-                            type="email"
-                            className="input input-bordered w-full"
-                            required
-                            value={email}
-                            onChange={(e) => setEmail(e.target.value)}
+        <div className="h-screen flex align-items-center justify-content-center">
+            <Card className="p-2 shadow-2 border-round w-full lg:w-6">
+                <div className="text-center mb-5">
+                    <SproutIcon size={50} />
+                    <div className="text-900 text-3xl font-medium mb-3">Recuperar Senha</div>
+                    <span className="text-600 line-height-3">
+                        Informe seu e-mail e enviaremos um link para redefinir sua senha.
+                    </span>
+                </div>
+
+                <div>
+                    <label htmlFor="email" className="block text-900 mb-2">
+                        <i className="pi pi-envelope"></i> E-mail
+                    </label>
+                    <InputText
+                        id="email"
+                        type="email"
+                        className="w-full mb-3"
+                        value={email}
+                        onChange={(e) => setEmail(e.target.value)}
+                    />
+
+                    <Button
+                        label="Enviar link de recuperação"
+                        icon="pi pi-send"
+                        className="w-full"
+                        loading={loading}
+                    />
+
+                    <div className="mt-2 w-full text-center">
+                        <Button
+                            label="Voltar para o Login"
+                            icon="pi pi-angle-left"
+                            severity="secondary"
+                            className="w-full"
+                            onClick={() => router.push("/login")}
                         />
                     </div>
-                    <button type="submit" className="btn btn-primary w-full" onClick={() => { resetPassword({ email, setLoading }) }}>
-                        <Mail /> Enviar Link
-                    </button>
-                    <div className="text-end">
-                        <a onClick={() => router.push("/login")} className="link link-primary">Voltar para Login</a>
-                    </div>
                 </div>
-            </div>
-
-            <div className="fixed bottom-3 right-3">
-                <p className="text-primary-500 text-sm">
-                    {new Date().getFullYear().toString()} Copyright © - Desenvolvido por eXtend File.</p>
-            </div>
-
-            <Loading isLoading={loading} />
+            </Card>
         </div>
     );
 }

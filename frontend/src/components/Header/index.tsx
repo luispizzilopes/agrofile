@@ -1,20 +1,46 @@
+"use client";
+
 import { useSidebar } from "@/contexts/SidebarContext";
-import { SproutIcon, SkipBack, SkipForward } from "lucide-react";
+import { SproutIcon } from "lucide-react";
+import { Menubar } from "primereact/menubar";
+import { Button } from "primereact/button";
 
 export default function Header() {
     const { open, setOpen } = useSidebar();
 
-    return (
-        <div className="navbar bg-[oklch(24.731%_0.02_264.094)] text-[oklch(82.901%_0.031_222.959)] shadow-sm border-l border-[oklch(28.036%_0.019_264.182)]" style={{ height: "75px" }}>
-            <div className="navbar-start">
-                <button className="btn btn-ghost btn-sm" onClick={()=> setOpen(!open)}>
-                    {open ? <SkipBack style={{ fontSize: "10px" }} /> : <SkipForward style={{ fontSize: "10px" }} />}
-                </button>
-                <a className="btn btn-ghost text-xl text-left text-[oklch(90%_0.04_222.959)]"><SproutIcon /> AgroFile</a>
-            </div>
-            <div className="navbar-end">
+    const start = (
+        <div className="flex align-items-center gap-3">
+            <Button
+                rounded
+                outlined
+                icon={open ? "pi pi-arrow-left" : "pi pi-arrow-right"}
+                className="p-button-sm"
+                onClick={() => setOpen(!open)}
+                aria-label="Alternar menu lateral"
+            />
 
+            <div className="flex align-items-center gap-2 font-bold text-xl text-color">
+                <SproutIcon size={22} />
+                AgroFile
             </div>
         </div>
+    );
+
+    const end = (
+        <div className="flex align-items-center gap-2">
+            {/* Conteúdo adicional do lado direito, se necessário */}
+        </div>
+    );
+
+    return (
+        <div className="px-2 py-1">
+            <Menubar
+                start={start}
+                end={end}
+                className="shadow-1"
+                style={{ height: "75px", background: "var(--surface-a)" }}
+            />
+        </div>
+
     );
 }

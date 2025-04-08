@@ -1,9 +1,15 @@
 import { LoadingProvider } from "@/contexts/LoadingContext";
+import { PrimeReactProvider } from 'primereact/api';
 import ClientSideToastContainer from "@/components/ClientSideToastContainer";
 import type { Metadata } from "next";
-import { Geist, Geist_Mono } from "next/font/google";
-import "./globals.css";
 import { SidebarProvider } from "@/contexts/SidebarContext";
+import { Geist, Geist_Mono } from "next/font/google";
+
+import "primereact/resources/themes/saga-green/theme.css";
+import 'primereact/resources/primereact.min.css';
+import 'primeicons/primeicons.css';
+import "primeflex/primeflex.css";
+import "./globals.css";
 
 const geistSans = Geist({
   variable: "--font-geist-sans",
@@ -31,13 +37,16 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} antialiased`}
       >
-        <ClientSideToastContainer />
-        <LoadingProvider>
-          <SidebarProvider>
-            {children}
-          </SidebarProvider>
+        <PrimeReactProvider>
+          <ClientSideToastContainer />
+          <LoadingProvider>
+            <SidebarProvider>
+              {children}
+            </SidebarProvider>
 
-        </LoadingProvider>
+          </LoadingProvider>
+        </PrimeReactProvider>
+
       </body>
     </html>
   );
