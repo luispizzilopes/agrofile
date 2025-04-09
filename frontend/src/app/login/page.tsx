@@ -1,14 +1,13 @@
 "use client";
 
-import { useRouter } from "next/navigation";
-import { SproutIcon } from "lucide-react";
 import { useLoading } from '@/contexts/LoadingContext';
+import { SproutIcon } from "lucide-react";
+import { useRouter } from "next/navigation";
 import { Button } from "primereact/button";
+import { Card } from "primereact/card";
 import { InputText } from "primereact/inputtext";
 import { useState } from 'react';
-import getRootColor from "@/utils/getRootColor";
 import signIn from "./features/signIn";
-import { Card } from "primereact/card";
 
 export default function Login() {
     const [email, setEmail] = useState<string>("");
@@ -38,7 +37,7 @@ export default function Login() {
                         <a onClick={() => router.push("/recuperar-senha")} className="no-underline ml-2 cursor-pointer">Esqueceu sua senha? Clique aqui</a>
                     </div>
 
-                    <Button label="Entrar" icon="pi pi-user" className="w-full" onClick={()=> signIn({ email, password, setLoading, router })}/>
+                    <Button loading={loading} label="Entrar" icon="pi pi-user" className="w-full" onClick={()=> signIn({ email, password, setLoading, router })}/>
                 </div>
             </Card>
         </div>

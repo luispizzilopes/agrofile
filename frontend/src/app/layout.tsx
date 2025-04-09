@@ -46,7 +46,6 @@ export default function RootLayout({
 
           </LoadingProvider>
         </PrimeReactProvider>
-
       </body>
     </html>
   );

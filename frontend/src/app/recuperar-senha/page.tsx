@@ -7,6 +7,7 @@ import { Button } from "primereact/button";
 import { InputText } from "primereact/inputtext";
 import { useState } from 'react';
 import { Card } from "primereact/card";
+import resetPassword from "./features/resetPassword";
 
 export default function RecuperarSenha() {
     const [email, setEmail] = useState<string>("");
@@ -42,6 +43,7 @@ export default function RecuperarSenha() {
                         icon="pi pi-send"
                         className="w-full"
                         loading={loading}
+                        onClick={()=> resetPassword({ email, setLoading })}
                     />
 
                     <div className="mt-2 w-full text-center">

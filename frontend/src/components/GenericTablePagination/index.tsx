@@ -1,17 +1,23 @@
 import React, { useEffect, useState } from 'react';
-import api from '@/services/api'; 
+import { DataTable } from "primereact/datatable";
+import { Column } from "primereact/column";
+import { Button } from "primereact/button";
+import api from '@/services/api';
 
 interface GenericTableProps<T> {
   endpoint: string;
   pageSize?: number;
+  tableColumnsNames?: Array<string>
 }
 
 export function GenericTable<T extends Record<string, any>>({
   endpoint,
   pageSize = 10,
+  tableColumnsNames
 }: GenericTableProps<T>) {
   const [data, setData] = useState<T[]>([]);
   const [columns, setColumns] = useState<string[]>([]);
+  const [columnsNames, setColumnsNames] = useState<string[]>([]);
   const [currentPage, setCurrentPage] = useState(1);
   const [totalPages, setTotalPages] = useState(1);
 
@@ -32,6 +38,10 @@ export function GenericTable<T extends Record<string, any>>({
         if (json.data.length > 0) {
           setColumns(Object.keys(json.data[0]));
         }
+
+        if (tableColumnsNames != undefined && tableColumnsNames?.length > 0) {
+          setColumnsNames(tableColumnsNames)
+        }
       } catch (error) {
         console.error('Erro ao buscar dados:', error);
       }
@@ -49,47 +59,52 @@ export function GenericTable<T extends Record<string, any>>({
   };
 
   return (
-    <div className="p-4">
-      <div className="overflow-x-auto">
-        <table className="table table-zebra w-full">
-          <thead>
-            <tr>
-              {columns.map((column) => (
-                <th key={column}>{column}</th>
-              ))}
-            </tr>
-          </thead>
-          <tbody>
-            {data.map((item, index) => (
-              <tr key={index}>
-                {columns.map((column) => (
-                  <td key={column}>{item[column]}</td>
-                ))}
-              </tr>
-            ))}
-          </tbody>
-        </table>
+    <>
+      <div className="overflow-auto">
+        <DataTable
+          showGridlines
+          value={data}
+          paginator={false}
+          className="p-datatable-sm"
+          tableStyle={{ minWidth: '50rem' }}
+        >
+          {columns.map((col, index) => (
+            <Column
+              key={col}
+              field={col}
+              header={columnsNames != undefined && columnsNames.length > 0 ? columnsNames[index] : col}
+              headerStyle={{ fontWeight: '600' }}
+            />
+          ))}
+        </DataTable>
       </div>
 
-      <div className="flex justify-between items-center mt-4">
-        <button
+      <div className="flex justify-content-center align-items-center mt-4">
+        <Button
+          label="Anterior"
+          icon="pi pi-arrow-left"
           onClick={previousPage}
           disabled={currentPage === 1}
-          className="btn btn-outline btn-primary"
-        >
-          ⬅ Anterior
-        </button>
-        <span className="text-sm">
-          Página {currentPage} de {totalPages}.
+          severity="secondary"
+          outlined
+          className="p-button-sm"
+        />
+
+        <span className="text-sm text-color-secondary mx-3">
+          Página <strong>{currentPage}</strong> de <strong>{totalPages}</strong>
         </span>
-        <button
+
+        <Button
+          label="Próxima"
+          icon="pi pi-arrow-right"
+          iconPos="right"
           onClick={nextPage}
           disabled={currentPage === totalPages}
-          className="btn btn-outline btn-primary"
-        >
-          Próxima ➡
-        </button>
+          severity="secondary"
+          outlined
+          className="p-button-sm"
+        />
       </div>
-    </div>
+    </>
   );
 }

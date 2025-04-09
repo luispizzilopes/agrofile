@@ -45,7 +45,8 @@ public class UserRepository : IUserRepository
                 Id = u.Id,
                 Email = u.Email,
                 UserName = u.UserName,
-                Picture = u.Picture
+                Picture = u.Picture,
+                LockoutEnabled = u.LockoutEnabled,
             })
             .PaginationAsync(parameters); 
     }

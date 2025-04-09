@@ -44,6 +44,20 @@ export default function DefaultPage({ title, icon, children }: DefaultPageProps)
       </div>
 
       <Loading isLoading={loading} />
+
+      <style global jsx>{`
+        .p-datatable .p-datatable-thead > tr > th {
+          background-color: var(--primary-color); /* Cor primária do tema */
+          color: var(--primary-color-text); /* Cor do texto primário */
+          text-align: center; /* Centraliza o texto do cabeçalho */
+          font-weight: bold; /* Negrito no texto */
+        }
+
+        .p-sortable-column-icon {
+          color: var(--primary-color-text); /* Cor do texto primário */
+        }
+      `}</style>
+
     </div>
   );
 }

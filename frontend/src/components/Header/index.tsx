@@ -13,6 +13,9 @@ export default function Header() {
             <Button
                 rounded
                 outlined
+                text
+                size="small"
+                severity="secondary"
                 icon={open ? "pi pi-arrow-left" : "pi pi-arrow-right"}
                 className="p-button-sm"
                 onClick={() => setOpen(!open)}
