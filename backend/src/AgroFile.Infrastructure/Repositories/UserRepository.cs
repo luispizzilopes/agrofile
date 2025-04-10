@@ -1,8 +1,9 @@
-﻿using AgroFile.Domain.Common;
-using AgroFile.Domain.Entities;
+﻿using AgroFile.Domain.Entities;
 using AgroFile.Domain.Interfaces;
 using AgroFile.Infrastructure.Context;
 using AgroFile.Infrastructure.Extensions;
+using AgroFile.Shared.Common;
+using AgroFile.Shared.InputModels.User;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.EntityFrameworkCore;
 
@@ -36,9 +37,17 @@ public class UserRepository : IUserRepository
             ?? throw new KeyNotFoundException("Não foi possível encontrar um usuario com o e-mail informado.");
     }
 
-    public async Task<PaginedResult<User>> GetUsers(PaginationParams parameters)
+    public async Task<PaginedResult<User>> GetUsers(PaginationParamsUserInputModel parameters)
     {
-        return await _context.Users
+        var queryUsers = _context.Users.AsQueryable();
+
+        if (!string.IsNullOrEmpty(parameters.UserName))
+            queryUsers = queryUsers.Where(u => u.UserName!.Contains(parameters.UserName));
+
+        if (parameters.Active is not null)
+            queryUsers = queryUsers.Where(u => u.Active == parameters.Active);
+
+        return await queryUsers
             .AsNoTracking()
             .Select(u => new User
             {
@@ -46,9 +55,8 @@ public class UserRepository : IUserRepository
                 Email = u.Email,
                 UserName = u.UserName,
                 Picture = u.Picture,
-                LockoutEnabled = u.LockoutEnabled,
-            })
-            .PaginationAsync(parameters); 
+                Active = u.Active ?? false,
+            }).PaginationAsync(new PaginationParams { PageNumber = parameters.PageNumber, PageSize = parameters.PageSize, MaxSize = parameters.MaxSize }); 
     }
 
     public async Task<bool> CreateUser(User user, string password)

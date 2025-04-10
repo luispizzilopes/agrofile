@@ -1,5 +1,6 @@
 ﻿using AgroFile.Domain.Common;
 using AgroFile.Domain.Entities;
+using AgroFile.Shared.Common;
 
 namespace AgroFile.Domain.Interfaces; 
 

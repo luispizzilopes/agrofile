@@ -926,6 +926,7 @@
       "AgroFile.Application/1.0.0": {
         "dependencies": {
           "AgroFile.Domain": "1.0.0",
+          "AgroFile.Shared": "1.0.0",
           "FluentValidation": "11.11.0",
           "Mapster": "7.4.0",
           "System.IdentityModel.Tokens.Jwt": "8.6.1"
@@ -948,6 +949,7 @@
       },
       "AgroFile.Domain/1.0.0": {
         "dependencies": {
+          "AgroFile.Shared": "1.0.0",
           "Microsoft.AspNetCore.Identity": "2.3.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.13"
         },
@@ -958,11 +960,17 @@
       "AgroFile.Infrastructure/1.0.0": {
         "dependencies": {
           "AgroFile.Domain": "1.0.0",
+          "AgroFile.Shared": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.13",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.11"
         },
         "runtime": {
           "AgroFile.Infrastructure.dll": {}
+        }
+      },
+      "AgroFile.Shared/1.0.0": {
+        "runtime": {
+          "AgroFile.Shared.dll": {}
         }
       }
     }
@@ -1605,6 +1613,11 @@
       "sha512": ""
     },
     "AgroFile.Infrastructure/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AgroFile.Shared/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

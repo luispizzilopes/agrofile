@@ -3,5 +3,5 @@ export default interface IUser {
     userName: string;
     picture?: string;
     id: string;
-    lockoutEnabled?: boolean; 
+    active?: boolean; 
 }

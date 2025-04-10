@@ -829,6 +829,16 @@
             "rid": "browser"
           }
         }
+      },
+      "AgroFile.Shared/1.0.0": {
+        "type": "project",
+        "framework": ".NETCoreApp,Version=v8.0",
+        "compile": {
+          "bin/placeholder/AgroFile.Shared.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/AgroFile.Shared.dll": {}
+        }
       }
     }
   },
@@ -1917,10 +1927,16 @@
         "system.text.encodings.web.nuspec",
         "useSharedDesignerContext.txt"
       ]
+    },
+    "AgroFile.Shared/1.0.0": {
+      "type": "project",
+      "path": "../AgroFile.Shared/AgroFile.Shared.csproj",
+      "msbuildProject": "../AgroFile.Shared/AgroFile.Shared.csproj"
     }
   },
   "projectFileDependencyGroups": {
     "net8.0": [
+      "AgroFile.Shared >= 1.0.0",
       "Microsoft.AspNetCore.Identity >= 2.3.0",
       "Microsoft.AspNetCore.Identity.EntityFrameworkCore >= 8.0.13"
     ]
@@ -1951,7 +1967,11 @@
       "frameworks": {
         "net8.0": {
           "targetAlias": "net8.0",
-          "projectReferences": {}
+          "projectReferences": {
+            "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.Shared\\AgroFile.Shared.csproj": {
+              "projectPath": "C:\\Users\\PC\\Desktop\\agrofile\\backend\\src\\AgroFile.Shared\\AgroFile.Shared.csproj"
+            }
+          }
         }
       },
       "warningProperties": {

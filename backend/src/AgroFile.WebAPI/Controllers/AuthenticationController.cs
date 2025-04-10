@@ -1,6 +1,6 @@
 ﻿using AgroFile.Application.Dtos.Authentication;
 using AgroFile.Application.Interfaces;
-using AgroFile.Domain.Common;
+using AgroFile.Shared.Common;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AgroFile.WebAPI.Controllers;

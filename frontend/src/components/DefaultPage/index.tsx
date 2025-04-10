@@ -1,10 +1,9 @@
 import { useLoading } from '@/contexts/LoadingContext';
+import { useSidebar } from '@/contexts/SidebarContext';
+import { Card } from 'primereact/card';
 import { ReactNode } from 'react';
 import Header from '../Header';
 import Loading from '../Loading';
-import Sidebar from '../Sidebar';
-import { Card } from 'primereact/card';
-import { useSidebar } from '@/contexts/SidebarContext';
 
 interface DefaultPageProps {
   title: string;
@@ -17,12 +16,7 @@ export default function DefaultPage({ title, icon, children }: DefaultPageProps)
   const { open } = useSidebar();
 
   return (
-    <div className="flex h-full min-h-screen">
-      {open && (
-        <div className="w-18rem surface-overlay flex flex-column fixed top-0 left-0 z-5 md:static">
-          <Sidebar />
-        </div>
-      )}
+
 
       <div className="flex flex-column flex-1">
         <Header />
@@ -41,7 +35,7 @@ export default function DefaultPage({ title, icon, children }: DefaultPageProps)
             </div>
           </Card>
         </div>
-      </div>
+
 
       <Loading isLoading={loading} />
 

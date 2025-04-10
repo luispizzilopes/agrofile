@@ -1,4 +1,4 @@
-﻿namespace AgroFile.Domain.Common;
+﻿namespace AgroFile.Shared.Common;
 
 public class PaginationParams
 {

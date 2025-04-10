@@ -14,3 +14,5 @@ C:\Users\PC\Desktop\agrofile\backend\src\AgroFile.Infrastructure\obj\Debug\net8.
 C:\Users\PC\Desktop\agrofile\backend\src\AgroFile.Infrastructure\obj\Debug\net8.0\refint\AgroFile.Infrastructure.dll
 C:\Users\PC\Desktop\agrofile\backend\src\AgroFile.Infrastructure\obj\Debug\net8.0\AgroFile.Infrastructure.pdb
 C:\Users\PC\Desktop\agrofile\backend\src\AgroFile.Infrastructure\obj\Debug\net8.0\ref\AgroFile.Infrastructure.dll
+C:\Users\PC\Desktop\agrofile\backend\src\AgroFile.Infrastructure\bin\Debug\net8.0\AgroFile.Shared.dll
+C:\Users\PC\Desktop\agrofile\backend\src\AgroFile.Infrastructure\bin\Debug\net8.0\AgroFile.Shared.pdb

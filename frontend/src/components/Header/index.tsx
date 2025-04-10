@@ -36,12 +36,12 @@ export default function Header() {
     );
 
     return (
-        <div className="px-2 py-1">
+        <div className="px-2 py-1 w-full">
             <Menubar
                 start={start}
                 end={end}
                 className="shadow-1"
-                style={{ height: "75px", background: "var(--surface-a)" }}
+                style={{ height: "75px", background: "var(--surface-a)", width: "100%" }}
             />
         </div>
 

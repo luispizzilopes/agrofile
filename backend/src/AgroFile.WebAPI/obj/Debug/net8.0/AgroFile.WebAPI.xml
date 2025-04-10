@@ -15,7 +15,7 @@
             </summary>
             <param name="userService">User service.</param>
         </member>
-        <member name="M:AgroFile.WebAPI.Controllers.UserController.GetUsers(AgroFile.Domain.Common.PaginationParams)">
+        <member name="M:AgroFile.WebAPI.Controllers.UserController.GetUsers(AgroFile.Shared.InputModels.User.PaginationParamsUserInputModel)">
             <summary>
             Retrieves a paginated list of users.
             </summary>

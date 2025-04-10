@@ -14,6 +14,7 @@
 
   <ItemGroup>
     <ProjectReference Include="..\AgroFile.Domain\AgroFile.Domain.csproj" />
+    <ProjectReference Include="..\AgroFile.Shared\AgroFile.Shared.csproj" />
   </ItemGroup>
 
   <ItemGroup>

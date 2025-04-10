@@ -1,4 +1,4 @@
-﻿using AgroFile.Domain.Common;
+﻿using AgroFile.Shared.Common;
 using Microsoft.EntityFrameworkCore;
 
 namespace AgroFile.Infrastructure.Extensions; 

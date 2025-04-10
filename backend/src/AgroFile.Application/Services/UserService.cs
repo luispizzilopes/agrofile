@@ -1,13 +1,13 @@
 ﻿using AgroFile.Application.Consts;
 using AgroFile.Application.Dtos.Email;
 using AgroFile.Application.Dtos.User;
-using AgroFile.Application.Exceptions;
 using AgroFile.Application.Interfaces;
 using AgroFile.Application.Interfaces.Validators;
 using AgroFile.Application.Messages;
-using AgroFile.Domain.Common;
 using AgroFile.Domain.Entities;
 using AgroFile.Domain.Interfaces;
+using AgroFile.Shared.Common;
+using AgroFile.Shared.InputModels.User;
 using Mapster;
 using Microsoft.Extensions.Configuration;
 
@@ -38,7 +38,7 @@ public class UserService : IUserService
         return userEntity.Adapt<UserSummaryDTO>();
     }
 
-    public async Task<PaginedResult<UserSummaryDTO>> GetUsers(PaginationParams parameters)
+    public async Task<PaginedResult<UserSummaryDTO>> GetUsers(PaginationParamsUserInputModel parameters)
     {
         PaginedResult<User> entitiesPaginedResult = await _userRepository.GetUsers(parameters);
         return entitiesPaginedResult.Adapt<PaginedResult<UserSummaryDTO>>();

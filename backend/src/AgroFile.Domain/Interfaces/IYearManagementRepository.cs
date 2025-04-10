@@ -1,7 +1,7 @@
-﻿using AgroFile.Domain.Common;
-using AgroFile.Domain.Entities;
+﻿using AgroFile.Domain.Entities;
+using AgroFile.Shared.Common;
 
-namespace AgroFile.Domain.Interfaces; 
+namespace AgroFile.Domain.Interfaces;
 
 public interface IYearManagementRepository
 {

@@ -9,6 +9,7 @@
       "AgroFile.Infrastructure/1.0.0": {
         "dependencies": {
           "AgroFile.Domain": "1.0.0",
+          "AgroFile.Shared": "1.0.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.13",
           "Npgsql.EntityFrameworkCore.PostgreSQL": "8.0.11"
         },
@@ -532,11 +533,17 @@
       "System.Text.Encodings.Web/8.0.0": {},
       "AgroFile.Domain/1.0.0": {
         "dependencies": {
+          "AgroFile.Shared": "1.0.0",
           "Microsoft.AspNetCore.Identity": "2.3.0",
           "Microsoft.AspNetCore.Identity.EntityFrameworkCore": "8.0.13"
         },
         "runtime": {
           "AgroFile.Domain.dll": {}
+        }
+      },
+      "AgroFile.Shared/1.0.0": {
+        "runtime": {
+          "AgroFile.Shared.dll": {}
         }
       }
     }
@@ -884,6 +891,11 @@
       "hashPath": "system.text.encodings.web.8.0.0.nupkg.sha512"
     },
     "AgroFile.Domain/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
+    },
+    "AgroFile.Shared/1.0.0": {
       "type": "project",
       "serviceable": false,
       "sha512": ""

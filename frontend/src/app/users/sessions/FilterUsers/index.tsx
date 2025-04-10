@@ -32,6 +32,7 @@ export default function FilterUsers({ filters, setFilters }: FilterUsersProps) {
 
     const handleClearFilters = () => {
         setFilters({ name: '', status: null });
+        (document.getElementById("name") as HTMLInputElement).value = "";
     };
 
     return (
@@ -40,8 +41,8 @@ export default function FilterUsers({ filters, setFilters }: FilterUsersProps) {
                 <InputText
                     id="name"
                     name="name"
-                    value={filters.name}
-                    onChange={handleInputChange}
+                    defaultValue={filters.name}
+                    onBlur={handleInputChange}
                     className="w-full"
                 />
                 <label htmlFor="name">Nome</label>

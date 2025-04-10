@@ -1,0 +1,12 @@
+C:\Users\PC\Desktop\agrofile\backend\src\AgroFile.Shared\bin\Debug\net8.0\AgroFile.Shared.deps.json
+C:\Users\PC\Desktop\agrofile\backend\src\AgroFile.Shared\bin\Debug\net8.0\AgroFile.Shared.dll
+C:\Users\PC\Desktop\agrofile\backend\src\AgroFile.Shared\bin\Debug\net8.0\AgroFile.Shared.pdb
+C:\Users\PC\Desktop\agrofile\backend\src\AgroFile.Shared\obj\Debug\net8.0\AgroFile.Shared.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\PC\Desktop\agrofile\backend\src\AgroFile.Shared\obj\Debug\net8.0\AgroFile.Shared.AssemblyInfoInputs.cache
+C:\Users\PC\Desktop\agrofile\backend\src\AgroFile.Shared\obj\Debug\net8.0\AgroFile.Shared.AssemblyInfo.cs
+C:\Users\PC\Desktop\agrofile\backend\src\AgroFile.Shared\obj\Debug\net8.0\AgroFile.Shared.csproj.CoreCompileInputs.cache
+C:\Users\PC\Desktop\agrofile\backend\src\AgroFile.Shared\obj\Debug\net8.0\AgroFile.Shared.sourcelink.json
+C:\Users\PC\Desktop\agrofile\backend\src\AgroFile.Shared\obj\Debug\net8.0\AgroFile.Shared.dll
+C:\Users\PC\Desktop\agrofile\backend\src\AgroFile.Shared\obj\Debug\net8.0\refint\AgroFile.Shared.dll
+C:\Users\PC\Desktop\agrofile\backend\src\AgroFile.Shared\obj\Debug\net8.0\AgroFile.Shared.pdb
+C:\Users\PC\Desktop\agrofile\backend\src\AgroFile.Shared\obj\Debug\net8.0\ref\AgroFile.Shared.dll

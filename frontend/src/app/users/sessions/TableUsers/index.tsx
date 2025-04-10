@@ -1,5 +1,8 @@
+"use client";
+
 import EndpointsApi from '@/data/EndpointsApi';
 import IUser from '@/interfaces/IUser';
+import IFilterUserInterface from '@/interfaces/IFilterUserInterface';
 import api from '@/services/api';
 import { Button } from "primereact/button";
 import { Avatar } from 'primereact/avatar';
@@ -8,10 +11,14 @@ import { DataTable } from "primereact/datatable";
 import { useEffect, useState } from 'react';
 import getRootColor from '@/utils/getRootColor';
 
-export function TableUsers({ pageSize }: { pageSize: number }) {
+export function TableUsers({ pageSize, filters }: { pageSize: number; filters: IFilterUserInterface }) {
     const [data, setData] = useState<IUser[]>([]);
     const [currentPage, setCurrentPage] = useState(1);
     const [totalPages, setTotalPages] = useState(1);
+
+    useEffect(() => {
+        setCurrentPage(1);
+    }, [filters]);
 
     useEffect(() => {
         const fetchData = async () => {
@@ -20,6 +27,8 @@ export function TableUsers({ pageSize }: { pageSize: number }) {
                     params: {
                         PageNumber: currentPage,
                         PageSize: pageSize,
+                        UserName: filters.name || undefined,
+                        Active: filters.status !== null ? filters.status : undefined,
                     },
                 });
 
@@ -32,7 +41,7 @@ export function TableUsers({ pageSize }: { pageSize: number }) {
         };
 
         fetchData();
-    }, [currentPage, pageSize]);
+    }, [currentPage, pageSize, filters]);
 
     const nextPage = () => {
         if (currentPage < totalPages) setCurrentPage((prev) => prev + 1);
@@ -46,6 +55,7 @@ export function TableUsers({ pageSize }: { pageSize: number }) {
         <>
             <div className="overflow-x">
                 <DataTable
+                    emptyMessage="Nenhum usuário encontrado"
                     showGridlines
                     value={data}
                     tableStyle={{ minWidth: '50rem' }}
@@ -71,16 +81,15 @@ export function TableUsers({ pageSize }: { pageSize: number }) {
                         body={(rowData: IUser) => (
                             <div className="flex justify-content-center gap-2">
                                 <i
-                                    className={`pi ${rowData?.lockoutEnabled ? "pi-times-circle" : "pi-check-circle"}`}
-                                    style={{ fontSize: '1.2rem', color: getRootColor(rowData?.lockoutEnabled ? "--red-500" : "--green-500") }}
+                                    className={`pi ${rowData?.active ? "pi-check-circle" : "pi-times-circle"}`}
+                                    style={{ fontSize: '1.2rem', color: getRootColor(rowData?.active ? "--green-500" : "--red-500") }}
                                 />
                                 <span className="font-medium">
-                                    {rowData?.lockoutEnabled ? "Não" : "Sim"}
+                                    {rowData?.active ? "Sim" : "Não"}
                                 </span>
                             </div>
                         )}
                     />
-
                     <Column
                         header="Identificador"
                         body={(rowData: IUser) => <p className='font-medium'>{rowData?.id}</p>}

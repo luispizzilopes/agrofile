@@ -1,4 +1,5 @@
 ﻿using AgroFile.Domain.Common;
+using AgroFile.Shared.Common;
 using Newtonsoft.Json;
 using Newtonsoft.Json.Serialization;
 using System.Net;

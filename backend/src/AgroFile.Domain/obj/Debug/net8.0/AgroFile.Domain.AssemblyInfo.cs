@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AgroFile.Domain")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+efd116235972d6e5d82ddfa226d31f6fadc65e7f")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+d755141d824b877e7385ac1d950c6afae8f5487d")]
 [assembly: System.Reflection.AssemblyProductAttribute("AgroFile.Domain")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AgroFile.Domain")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

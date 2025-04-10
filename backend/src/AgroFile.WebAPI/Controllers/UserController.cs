@@ -1,6 +1,8 @@
 ﻿using AgroFile.Application.Dtos.User;
 using AgroFile.Application.Interfaces;
 using AgroFile.Domain.Common;
+using AgroFile.Shared.Common;
+using AgroFile.Shared.InputModels.User;
 using Microsoft.AspNetCore.Mvc;
 
 namespace AgroFile.WebAPI.Controllers; 
@@ -29,7 +31,7 @@ public class UserController : ControllerBase
     /// <param name="parameters">Pagination parameters.</param>
     /// <returns>Paginated list of users.</returns>
     [HttpGet]
-    public async Task<ActionResult<PaginedResult<UserSummaryDTO>>> GetUsers([FromQuery] PaginationParams parameters)
+    public async Task<ActionResult<PaginedResult<UserSummaryDTO>>> GetUsers([FromQuery] PaginationParamsUserInputModel parameters)
     {
         return await _userService.GetUsers(parameters);
     }

@@ -1,9 +1,12 @@
 "use client";
 
 import { useSidebar } from "@/contexts/SidebarContext";
-import { Home, Menu, Users, CircleX } from "lucide-react";
+import { Home, Menu, Users } from "lucide-react";
 import { useRouter } from "next/navigation";
+import { Button } from "primereact/button";
 import { ReactNode } from "react";
+
+import "./style.css";
 
 export default function Sidebar() {
   const { open, setOpen } = useSidebar();
@@ -17,9 +20,15 @@ export default function Sidebar() {
             Menu
           </h1>
 
-          <button className="btn btn-text sm:hidden" onClick={() => setOpen(!open)}>
-            <CircleX size={25} />
-          </button>
+          <Button 
+            style={{ display: "none", position: "fixed", top: 10, right: 10 }}
+            id="close-sidebar-button" 
+            icon="pi pi-times" 
+            onClick={()=> setOpen(!open)} 
+            rounded 
+            outlined 
+            severity="secondary"
+          />
         </div>
 
         <ul className="flex-1 px-3 my-0">

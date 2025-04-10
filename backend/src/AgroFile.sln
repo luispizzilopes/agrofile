@@ -3,15 +3,17 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.9.34701.34
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgroFile.Domain", "AgroFile.Domain\AgroFile.Domain.csproj", "{A7803DF3-7FED-4A57-8839-C34678CF96AE}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgroFile.Domain", "AgroFile.Domain\AgroFile.Domain.csproj", "{A7803DF3-7FED-4A57-8839-C34678CF96AE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgroFile.Application", "AgroFile.Application\AgroFile.Application.csproj", "{C7FFAC20-A623-4B33-BEF2-C36FE511BD76}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgroFile.Application", "AgroFile.Application\AgroFile.Application.csproj", "{C7FFAC20-A623-4B33-BEF2-C36FE511BD76}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgroFile.Infrastructure", "AgroFile.Infrastructure\AgroFile.Infrastructure.csproj", "{C55397EB-D0A7-4D48-BF68-BD67F1F08329}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgroFile.Infrastructure", "AgroFile.Infrastructure\AgroFile.Infrastructure.csproj", "{C55397EB-D0A7-4D48-BF68-BD67F1F08329}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgroFile.CrossCutting", "AgroFile.CrossCutting\AgroFile.CrossCutting.csproj", "{D39EC98B-3CEF-431F-88BE-DC1647337D4F}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgroFile.CrossCutting", "AgroFile.CrossCutting\AgroFile.CrossCutting.csproj", "{D39EC98B-3CEF-431F-88BE-DC1647337D4F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgroFile.WebAPI", "AgroFile.WebAPI\AgroFile.WebAPI.csproj", "{7E54197B-39A9-4DBE-8B7A-4D2C0E330C99}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AgroFile.WebAPI", "AgroFile.WebAPI\AgroFile.WebAPI.csproj", "{7E54197B-39A9-4DBE-8B7A-4D2C0E330C99}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AgroFile.Shared", "AgroFile.Shared\AgroFile.Shared.csproj", "{5CCEE204-0D1C-4EB3-A7A2-9B494B2A1061}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -39,6 +41,10 @@ Global
 		{7E54197B-39A9-4DBE-8B7A-4D2C0E330C99}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7E54197B-39A9-4DBE-8B7A-4D2C0E330C99}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7E54197B-39A9-4DBE-8B7A-4D2C0E330C99}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5CCEE204-0D1C-4EB3-A7A2-9B494B2A1061}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5CCEE204-0D1C-4EB3-A7A2-9B494B2A1061}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5CCEE204-0D1C-4EB3-A7A2-9B494B2A1061}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5CCEE204-0D1C-4EB3-A7A2-9B494B2A1061}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

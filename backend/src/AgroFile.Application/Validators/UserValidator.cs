@@ -3,6 +3,7 @@ using AgroFile.Application.Interfaces.Validators;
 using AgroFile.Application.Messages;
 using AgroFile.Domain.Common;
 using AgroFile.Domain.Interfaces;
+using AgroFile.Shared.Common;
 
 namespace AgroFile.Application.Validators;
 

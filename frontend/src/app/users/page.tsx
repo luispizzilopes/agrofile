@@ -10,7 +10,7 @@ import IFilterUserInterface from "@/interfaces/IFilterUserInterface";
 
 export default function Page() {
     const [filters, setFilters] = useState<IFilterUserInterface>({
-        name: '',
+        name: "",
         status: null,
     });
 
@@ -23,7 +23,7 @@ export default function Page() {
 
                 <FilterUsers filters={filters} setFilters={setFilters} />
 
-                <TableUsers pageSize={10} />
+                <TableUsers pageSize={10} filters={filters} />
             </main>
         </DefaultPage>
     );

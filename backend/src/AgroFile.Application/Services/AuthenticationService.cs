@@ -9,6 +9,7 @@ using AgroFile.Application.Messages;
 using AgroFile.Domain.Common;
 using AgroFile.Domain.Entities;
 using AgroFile.Domain.Interfaces;
+using AgroFile.Shared.Common;
 using Microsoft.AspNetCore.Http;
 using Microsoft.AspNetCore.Identity;
 using Microsoft.Extensions.Configuration;
