@@ -8,6 +8,7 @@ import { Card } from "primereact/card";
 import { InputText } from "primereact/inputtext";
 import { useState } from 'react';
 import signIn from "./features/signIn";
+import getRootColor from '@/utils/getRootColor';
 
 export default function Login() {
     const [email, setEmail] = useState<string>("");
@@ -20,7 +21,7 @@ export default function Login() {
         <div className="h-screen flex align-items-center justify-content-center">
             <Card className="p-2 shadow-2 border-round w-full lg:w-6">
                 <div className="text-center mb-5">
-                    <SproutIcon size={50} />
+                    <SproutIcon size={50} id='system-icon' />
 
                     <div className="text-900 text-3xl font-medium mb-3">Seja Bem-Vindo ao AgroFile</div>
                     <span className="text-600  line-height-3">Informe suas credenciais para realizar a autenticação</span>
@@ -34,7 +35,13 @@ export default function Login() {
                     <InputText id="password" type="password" className="w-full mb-3" value={password} onChange={(e) => setPassword(e.target.value)} />
 
                     <div className="text-right justify-content-between mb-4">
-                        <a onClick={() => router.push("/recuperar-senha")} className="no-underline ml-2 cursor-pointer">Esqueceu sua senha? Clique aqui</a>
+                        <a 
+                            onClick={() => router.push("/reset-password")} 
+                            className="no-underline ml-2 cursor-pointer"
+                            style={{ color: "var(--primary-600)" }}
+                        >
+                            Esqueceu sua senha? Clique aqui
+                        </a>
                     </div>
 
                     <Button loading={loading} label="Entrar" icon="pi pi-user" className="w-full" onClick={()=> signIn({ email, password, setLoading, router })}/>

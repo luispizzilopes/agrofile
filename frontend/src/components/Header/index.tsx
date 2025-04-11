@@ -1,48 +1,29 @@
 "use client";
 
-import { useSidebar } from "@/contexts/SidebarContext";
 import { SproutIcon } from "lucide-react";
+import { useRouter } from "next/navigation";
 import { Menubar } from "primereact/menubar";
-import { Button } from "primereact/button";
+import { createItemsHeader } from "./data/ItemsHeader";
 
 export default function Header() {
-    const { open, setOpen } = useSidebar();
-
-    const start = (
-        <div className="flex align-items-center gap-3">
-            <Button
-                rounded
-                outlined
-                text
-                size="small"
-                severity="secondary"
-                icon={open ? "pi pi-arrow-left" : "pi pi-arrow-right"}
-                className="p-button-sm"
-                onClick={() => setOpen(!open)}
-                aria-label="Alternar menu lateral"
-            />
-
-            <div className="flex align-items-center gap-2 font-bold text-xl text-color">
-                <SproutIcon size={22} />
-                AgroFile
-            </div>
-        </div>
-    );
-
-    const end = (
-        <div className="flex align-items-center gap-2">
-            {/* Conteúdo adicional do lado direito, se necessário */}
-        </div>
-    );
+    const router = useRouter(); 
+    const itemsHeader = createItemsHeader(router); 
 
     return (
-        <div className="px-2 py-1 w-full">
+        <div className="px-1 py-1 w-full">
             <Menubar
-                start={start}
-                end={end}
+                model={itemsHeader}
+                start={
+                    <div className="flex align-items-center gap-2 font-bold text-xl text-color mx-3">
+                        <SproutIcon size={30} id="system-icon"/>
+                        AgroFile
+                    </div>
+                }
+                end={<div className="flex align-items-center gap-2"></div>}
                 className="shadow-1"
-                style={{ height: "75px", background: "var(--surface-a)", width: "100%" }}
+                style={{ height: '75px', background: 'var(--surface-a)', width: '100%' }}
             />
+
         </div>
 
     );

@@ -36,8 +36,8 @@ export default function FilterUsers({ filters, setFilters }: FilterUsersProps) {
     };
 
     return (
-        <div className="mb-2 flex align-items-center gap-3">
-            <span className="p-float-label w-5">
+        <div className="mb-2 flex flex-column md:flex-row md:align-items-center gap-4 md:gap-3">
+            <span className="p-float-label w-full md:w-5">
                 <InputText
                     id="name"
                     name="name"
@@ -48,7 +48,7 @@ export default function FilterUsers({ filters, setFilters }: FilterUsersProps) {
                 <label htmlFor="name">Nome</label>
             </span>
 
-            <span className="p-float-label w-2">
+            <span className="p-float-label w-full md:w-2">
                 <Dropdown
                     id="status"
                     value={filters.status}
@@ -60,14 +60,19 @@ export default function FilterUsers({ filters, setFilters }: FilterUsersProps) {
                 <label htmlFor="status">Ativo</label>
             </span>
 
-            <Button
-                size="small"
-                icon="pi pi-times"
-                label="Limpar Filtro"
-                onClick={handleClearFilters}
-                outlined
-                rounded
-            />
+            <div className="w-full md:w-auto">
+                <Button
+                    size="small"
+                    icon="pi pi-times"
+                    label="Limpar Filtro"
+                    onClick={handleClearFilters}
+                    outlined
+                    rounded
+                    className="w-full md:w-auto"
+                />
+            </div>
         </div>
+
+
     );
 }
